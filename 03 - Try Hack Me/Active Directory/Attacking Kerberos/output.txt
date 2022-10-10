@@ -1,0 +1,11 @@
+admin1@CONTROLLER.local
+administrator@CONTROLLER.local
+admin2@CONTROLLER.local
+httpservice@CONTROLLER.local
+user1@CONTROLLER.local
+user2@CONTROLLER.local
+sqlservice@CONTROLLER.local
+machine2@CONTROLLER.local
+user3@CONTROLLER.local
+machine1@CONTROLLER.local
+

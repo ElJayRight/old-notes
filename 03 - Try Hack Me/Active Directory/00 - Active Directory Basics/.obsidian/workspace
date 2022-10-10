@@ -1,0 +1,101 @@
+{
+  "main": {
+    "id": "aa1aa051fab4d7d6",
+    "type": "split",
+    "children": [
+      {
+        "id": "da91bdbbdeeaecec",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "08 - Hands-On Lab.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0e275fb904dfe39e",
+    "type": "split",
+    "children": [
+      {
+        "id": "879373f8f2dcbeb7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2fc5b55079a669af",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "c6510d69da54ad92",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "133fba83dec04307",
+    "type": "split",
+    "children": [
+      {
+        "id": "a4e2ef051573e3fa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "578b5bbec0bbf2a7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "08 - Hands-On Lab.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "da91bdbbdeeaecec",
+  "lastOpenFiles": [
+    "08 - Hands-On Lab.md",
+    "04 - Users + Groups.md",
+    "03 - The Forest.md",
+    "02 - Physical Active Directory.md",
+    "01 - Introduction.md",
+    "07 - AD in the Cloud.md",
+    "06 - Active Directory Domain Services + Authenticatoin.md",
+    "05 - Trusts + Policies.md",
+    "Untitled.md"
+  ]
+}

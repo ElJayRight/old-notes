@@ -1,0 +1,96 @@
+{
+  "main": {
+    "id": "b0b8eaa61a5640b4",
+    "type": "split",
+    "children": [
+      {
+        "id": "507e6999081c439b",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "02 - Enumerating Active Directory/02 - Credential Injection.md",
+            "mode": "preview",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fc2ae0adab708878",
+    "type": "split",
+    "children": [
+      {
+        "id": "0755e6723d7446b0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2924c89ef7cd2811",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "a7edbf184bbd6f07",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f8dac64f4aaa8010",
+    "type": "split",
+    "children": [
+      {
+        "id": "b89b7830e5d62478",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d60ad67d721cf573",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "02 - Enumerating Active Directory/02 - Credential Injection.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "507e6999081c439b",
+  "lastOpenFiles": [
+    "00 - Active Directory Basics/03 - The Forest.md",
+    "00 - Active Directory Basics/02 - Physical Active Directory.md",
+    "00 - Active Directory Basics/01 - Introduction.md"
+  ]
+}

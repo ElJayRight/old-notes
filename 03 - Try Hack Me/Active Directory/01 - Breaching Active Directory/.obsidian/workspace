@@ -1,0 +1,101 @@
+{
+  "main": {
+    "id": "b7c0a138e88c55f3",
+    "type": "split",
+    "children": [
+      {
+        "id": "6216aa481e76af87",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "02 - OSINT and Phishing.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "744edf1c32453f5e",
+    "type": "split",
+    "children": [
+      {
+        "id": "65bbf7989e2c0d0b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "300f3b94b4c24bd2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "0bfd2798bf0d1ca4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3c0ea497ffef04aa",
+    "type": "split",
+    "children": [
+      {
+        "id": "6b19862d93504c95",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bc75a863e60fd8d1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "02 - OSINT and Phishing.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "6216aa481e76af87",
+  "lastOpenFiles": [
+    "01 - Introduction to AD Breaches.md",
+    "07 - Configuration Files.md",
+    "06 - Microsoft Deployment Toolkit.md",
+    "05 - Authenrication Relays.md",
+    "04 - LDAP Bind Credentials.md",
+    "02 - OSINT and Phishing.md",
+    "03 - NTLM Authernticated Services.md",
+    "Untitled 1.md"
+  ]
+}

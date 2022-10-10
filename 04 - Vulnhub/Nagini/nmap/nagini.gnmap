@@ -1,0 +1,4 @@
+# Nmap 7.92 scan initiated Mon Oct  3 08:49:56 2022 as: nmap -sC -sV -oA nmap/nagini 192.168.16.8
+Host: 192.168.16.8 ()	Status: Up
+Host: 192.168.16.8 ()	Ports: 22/open/tcp//ssh//OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.38 ((Debian))/	Ignored State: closed (998)
+# Nmap done at Mon Oct  3 08:50:04 2022 -- 1 IP address (1 host up) scanned in 7.30 seconds

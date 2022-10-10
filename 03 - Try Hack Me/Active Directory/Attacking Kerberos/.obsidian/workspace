@@ -1,0 +1,101 @@
+{
+  "main": {
+    "id": "4e77523fcd13a2db",
+    "type": "split",
+    "children": [
+      {
+        "id": "15d2c11d46e84c50",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "01 - Introduction.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b4e98df103aacd8a",
+    "type": "split",
+    "children": [
+      {
+        "id": "fa5c15118944e32b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "890aa59cd6d48be7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "d92ec22a081f2a10",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "15b82e8d9cc4be2d",
+    "type": "split",
+    "children": [
+      {
+        "id": "cbee44b589dde6aa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4776ee948fec942e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "01 - Introduction.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "15d2c11d46e84c50",
+  "lastOpenFiles": [
+    "08 - Kerberos Backdoors with mimikatz.md",
+    "07 - Golden and Silver Ticket Attacks with minikatz.md",
+    "06 - Pass the Ticket with mimikatz.md",
+    "01 - Introduction.md",
+    "05 - AS-REP Roasting with Rubeus.md",
+    "04 - Kerberoasting with Rubeus and Impacket.md",
+    "03 - Harvesting and Brute-Forcing Tickets with Rubeus.md",
+    "02 - Enumeration with Kerbrute.md"
+  ]
+}

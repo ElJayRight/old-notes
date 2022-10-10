@@ -1,0 +1,4 @@
+# Nmap 7.92 scan initiated Fri Oct  7 06:31:41 2022 as: nmap -sC -sV -oA nmap/dogcat 10.10.201.11
+Host: 10.10.201.11 ()	Status: Up
+Host: 10.10.201.11 ()	Ports: 22/open/tcp//ssh//OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)/	Ignored State: closed (999)
+# Nmap done at Fri Oct  7 06:32:09 2022 -- 1 IP address (1 host up) scanned in 28.41 seconds

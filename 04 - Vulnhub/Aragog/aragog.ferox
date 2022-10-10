@@ -1,0 +1,20 @@
+200      GET        5l       11w       97c http://192.168.16.6/
+301      GET        9l       28w      311c http://192.168.16.6/blog => http://192.168.16.6/blog/
+301      GET        9l       28w      317c http://192.168.16.6/javascript => http://192.168.16.6/javascript/
+301      GET        9l       28w      322c http://192.168.16.6/blog/wp-content => http://192.168.16.6/blog/wp-content/
+301      GET        9l       28w      320c http://192.168.16.6/blog/wp-admin => http://192.168.16.6/blog/wp-admin/
+301      GET        9l       28w      323c http://192.168.16.6/blog/wp-includes => http://192.168.16.6/blog/wp-includes/
+301      GET        9l       28w      330c http://192.168.16.6/blog/wp-includes/blocks => http://192.168.16.6/blog/wp-includes/blocks/
+301      GET        9l       28w      329c http://192.168.16.6/blog/wp-includes/fonts => http://192.168.16.6/blog/wp-includes/fonts/
+301      GET        9l       28w      333c http://192.168.16.6/blog/wp-includes/customize => http://192.168.16.6/blog/wp-includes/customize/
+301      GET        9l       28w      330c http://192.168.16.6/blog/wp-content/uploads => http://192.168.16.6/blog/wp-content/uploads/
+301      GET        9l       28w      331c http://192.168.16.6/blog/wp-includes/widgets => http://192.168.16.6/blog/wp-includes/widgets/
+301      GET        9l       28w      330c http://192.168.16.6/blog/wp-includes/images => http://192.168.16.6/blog/wp-includes/images/
+301      GET        9l       28w      326c http://192.168.16.6/blog/wp-includes/js => http://192.168.16.6/blog/wp-includes/js/
+301      GET        9l       28w      327c http://192.168.16.6/blog/wp-includes/css => http://192.168.16.6/blog/wp-includes/css/
+200      GET        5l       11w       97c http://192.168.16.6/
+301      GET        9l       28w      311c http://192.168.16.6/blog => http://192.168.16.6/blog/
+301      GET        9l       28w      317c http://192.168.16.6/javascript => http://192.168.16.6/javascript/
+301      GET        9l       28w      327c http://192.168.16.6/javascript/prototype => http://192.168.16.6/javascript/prototype/
+403      GET        9l       28w      277c http://192.168.16.6/server-status
+200      GET     7036l    18816w   180822c http://192.168.16.6/javascript/prototype/prototype
