@@ -2,17 +2,10 @@ Links: [[00 - Global Index (Start Here!)]]
 
 # [03 - Try Hack Me]
 ***
-## [[Wreath]]
-
-
 ## [[Windcorp]]
 ### [Box 1: Ra](Ra)
 
 
-## [[Holo]]
-### [[Housekeeping]]
-### [[Initial Recon]]
-### [[NET basics]]
 
 ## [[Active Directory]]
 ### [[Attacking Kerberos]]
@@ -25,6 +18,11 @@ Links: [[00 - Global Index (Start Here!)]]
 [[dogcat]]
 [[Attacktive Directory]]
 [[RazorBlack]]
+
+
+## Learning things
+[[Upload Vulnerabilities]]
+
 
 ---
 Creation date: 09-10-2022
