@@ -1,18 +1,17 @@
 Links [[00 - Global Index (Start Here!)]] [[ROP Emporium]]
 
-# [[callme]]
 # Contents
 ***
 - Task Description
 - 32 bit
 
 ## Task Description
-***
+
 Reliably make consecutive calls to imported functions.  
 Use some new techniques and learn about the Procedure Linkage Table.
 
 ## 32 bit
-***
+
 Reading the site we need to call three functions while passing in the same three arguments.
 
 args:  `0xdeadbeef`, `0xcafebabe`, `0xd00df00d`

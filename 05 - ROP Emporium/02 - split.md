@@ -1,18 +1,17 @@
 Links [[00 - Global Index (Start Here!)]] [[ROP Emporium]]
 
-# [[split]]
 # Contents
 ***
 - Task Description
 - 32 bit
 
 ## Task Description
-***
+
 The elements that allowed you to complete ret2win are still present, they've just been split apart.  
 Find them and recombine them using a short ROP chain.
 
 ## 32 bit
-***
+
 File Checks
 32 bit ELF with no canaries
 To get the flag we need to create a chain where it first calls system and then /bin/cat flag.txt
@@ -33,6 +32,5 @@ ROPE{a_placeholder_32byte_flag!}
 
 ---
 Creation date: 11-10-2022
-
 Last modified date: Tuesday 11th October 2022
 ***
