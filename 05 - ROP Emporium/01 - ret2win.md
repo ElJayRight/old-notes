@@ -1,20 +1,18 @@
 Links [[00 - Global Index (Start Here!)]] [[ROP Emporium]]
 
 # [[ret2win]]
-### Contents
+# Contents
 ***
-- [Task Description](01%20-%20ret2win.md#Task%20Description)
-- [32 bit](01%20-%20ret2win.md#32%20bit)
-- [64 bit](01%20-%20ret2win.md#64%20bit)
+- Task Description
+- 32 bit
+- 64 bit
 
-
-
-### Task Description
+## Task Description
 ---
 Locate a method that you want to call within the binary.  
 Call it by overwriting a saved return address on the stack.
 
-### 32 bit
+## 32 bit
 ---
 File checks:
 32 bit ELF with no canaries
@@ -64,5 +62,6 @@ Add the buffer and run the payload
 
 ---
 Creation date: 08-10-2022
+
 Last modified date: Sunday 8th October 2022
 ***

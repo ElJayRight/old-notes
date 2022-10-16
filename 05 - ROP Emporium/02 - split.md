@@ -1,17 +1,17 @@
 Links [[00 - Global Index (Start Here!)]] [[ROP Emporium]]
 
 # [[split]]
-### Contents
+# Contents
 ***
-- [Task Description](02%20-%20split.md#Task%20Description)
-- [32 bit](02%20-%20split.md#32%20bit)
+- Task Description
+- 32 bit
 
-### Task Description
+## Task Description
 ***
 The elements that allowed you to complete ret2win are still present, they've just been split apart.  
 Find them and recombine them using a short ROP chain.
 
-### 32 bit
+## 32 bit
 ***
 File Checks
 32 bit ELF with no canaries
@@ -33,5 +33,6 @@ ROPE{a_placeholder_32byte_flag!}
 
 ---
 Creation date: 11-10-2022
+
 Last modified date: Tuesday 11th October 2022
 ***

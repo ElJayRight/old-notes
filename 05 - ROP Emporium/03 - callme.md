@@ -1,17 +1,17 @@
 Links [[00 - Global Index (Start Here!)]] [[ROP Emporium]]
 
 # [[callme]]
-### Contents
+# Contents
 ***
-- [Task Description](03%20-%20callme.md#Task%20Description)
-- [32 bit](03%20-%20callme.md#32%20bit)
+- Task Description
+- 32 bit
 
-### Task Description
+## Task Description
 ***
 Reliably make consecutive calls to imported functions.  
 Use some new techniques and learn about the Procedure Linkage Table.
 
-### 32 bit
+## 32 bit
 ***
 Reading the site we need to call three functions while passing in the same three arguments.
 
@@ -65,5 +65,6 @@ ROPE{a_placeholder_32byte_flag!}
 
 ---
 Creation date: 13-10-2022
+
 Last modified date: Thursday 13th October 2022
 ***
