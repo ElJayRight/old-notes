@@ -4,3 +4,8 @@ Links [[00 - Global Index (Start Here!)]]
 # Linux
 ## Hard
 [[01 - Seventeen]]
+
+
+# Windows
+## Medium
+[[Scrambled]]
