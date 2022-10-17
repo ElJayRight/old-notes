@@ -14,4 +14,6 @@
 		* [Inspec3t0r](Insp3ct0r.md)
 		* [where are the robots](where%20are%20the%20robots.md)
 	* [Binary Exploitation](02%20-%20Binary%20Exploitation/Binary%20Exploitation.md)
-		* [basic-file-exploit]()
+		* [basic-file-exploit](01%20-%20PicoGym/02%20-%20Binary%20Exploitation/basic-file-exploit.md)
+		* [buffer overflow 0](01%20-%20PicoGym/02%20-%20Binary%20Exploitation/buffer%20overflow%200.md)
+		* [buffer overflow 1](01%20-%20PicoGym/02%20-%20Binary%20Exploitation/buffer%20overflow%201.md)
