@@ -5,13 +5,13 @@
 
 # [[01 - PicoGym]]
 ## [Web Challenges](Web%20Challenges.md)
-[[01 - GET aHEAD]]
-[[02 - Insp3ct0r]]
-[[03 - where are the robots]]
+[[GET aHEAD]]
+[[Insp3ct0r]]
+[[where are the robots]]
 
 ## [Binary Exploitation](Binary%20Exploitation.md)
-[[01 - basic-file-exploit]]
-[[02 - buffer overflow 0]]
+[[basic-file-exploit]]
+[[buffer overflow 0]]
 
 ## [General Skills](General%20Skills.md)
 [[01 - strings it]]

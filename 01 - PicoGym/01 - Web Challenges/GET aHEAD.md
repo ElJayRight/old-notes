@@ -1,4 +1,3 @@
-# GET aHEAD
 # Contents
 - Task Description
 - Notes

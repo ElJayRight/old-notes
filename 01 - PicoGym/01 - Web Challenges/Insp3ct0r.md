@@ -1,4 +1,3 @@
-# Insp3ct0r
 # Contents
 - Task Description
 - Notes
