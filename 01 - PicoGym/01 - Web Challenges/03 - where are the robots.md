@@ -1,6 +1,5 @@
 # where are the robots
 # Contents
-***
 - Task Description
 - Notes
 - Solve Script
