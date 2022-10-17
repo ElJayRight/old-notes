@@ -1,18 +1,13 @@
-Links [[00 - Global Index (Start Here!)]] [[01 - PicoGym]] [[Web Challenges]]
+# Insp3ct0r
+# Contents
+- Task Description
+- Notes
+- Sovle Script
 
-# [[02 - Insp3ct0r]]
-### Contents
-***
-- [Task Description](02%20-%20Insp3ct0r#Task%20Description)
-- [Notes](02%20-%20Insp3ct0r#Notes)
-- [Sovle Script](02%20-%20Insp3ct0r#Solve%20Script)
-
-### Task Description
-***
+## Task Description
 Kishor Balan tipped us off that the following code may need inspection: `https://jupiter.challenges.picoctf.org/problem/44924/`
 
-### Notes
-***
+## Notes
 Looking at the html of the page shows the first part of the flag. There is also reference to custom css and js pages.
 Checking the network tab of dev tools in chrome gives both links.
 ```bash
@@ -24,8 +19,7 @@ Adding the flags together gives:
 picoCTF{tru3_d3t3ct1ve_0r_ju5t_lucky?f10be399}
 ```
 
-### Sovle Script
-***
+## Sovle Script
 ```python
 import requests
 
@@ -44,5 +38,6 @@ print(a+b+c)
 
 ---
 Creation date: 08-10-2022
+
 Last modified date: Sunday 8th October 2022
 ***

@@ -3,9 +3,9 @@ Links [[00 - Global Index (Start Here!)]] [[01 - PicoGym]] [[General Skills]]
 # [[02 - Codebook]]
 ### Contents
 ***
-- [Task Description](02%20-%20Codebook#Task%20Description)
-- [Notes](02%20-%20Codebook#Notes)
-- [Solve Script](02%20-%20Codebook#Solve%20Script)
+- [Task Description](02%20-%20Codebook.md#Task%20Description)
+- [Notes](02%20-%20Codebook.md#Notes)
+- [Solve Script](02%20-%20Codebook.md#Solve%20Script)
 
 
 ### Task Description

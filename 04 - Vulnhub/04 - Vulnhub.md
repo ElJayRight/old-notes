@@ -3,8 +3,8 @@ Links: [[00 - Global Index (Start Here!)]]
 # [04 - Vulnhub]
 ***
 # Boxes
-[[Aragog]]
-[[Nagini]]
+- [[Aragog]]
+- [[Nagini]]
 
 
 

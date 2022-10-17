@@ -1,18 +1,13 @@
-Links [[00 - Global Index (Start Here!)]] [[01 - PicoGym]] [[Web Challenges]]
+# GET aHEAD
+# Contents
+- Task Description
+- Notes
+- Solve Script
 
-# [[01 - GET aHEAD]]
-## Contents
-***
-- [Task Description](01%20-%20GET%20aHEAD.md#Task%20Description)
-- [Notes](01%20-%20GET%20aHEAD.md#Notes)
-- [Solve Script](01%20-%20GET%20aHEAD.md#Solve%20Script)
-
-### Task Description
----
+## Task Description
 Find the flag being held on this server to get ahead of the competition [http://mercury.picoctf.net:53554/]
 
-### Notes
----
+## Notes
 Looking at the requests in burp to see what causes the page to change
 **For red:**
 ``` http
@@ -49,7 +44,6 @@ flag: picoCTF{r3j3ct_th3_du4l1ty_2e5ba39f}
 ```
 
 ## Solve Script
----
 ```bash
 curl -I http://mercury.picoctf.net:53554/index.php | grep pico | awk -F': ' '{print $2}'
 ```
@@ -57,6 +51,7 @@ curl -I http://mercury.picoctf.net:53554/index.php | grep pico | awk -F': ' '{pr
 
 ---
 Creation date: 08-10-2022
+
 Last modified date: Sunday 8th October 2022
 ***
 

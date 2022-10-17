@@ -1,5 +1,5 @@
 # The start
-I went to a CSEC meetup and got given a Pi Pico and was taught how to turn it into a rubber ducky and write a ducky script using the .dd file.
+I went to a CSEC meetup and got given a Pi Pico and was taught how to turn it into a rubber ducky and write a script using the .dd file.
 As a POC to see if it works.
 ```
 GUI + r

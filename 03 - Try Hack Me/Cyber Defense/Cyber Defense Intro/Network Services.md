@@ -47,6 +47,7 @@ ftp back in and get the flag.
 
 
 # NFS
+## Outline
 Network file system
 It mounts a directory
 ## Enumeration
@@ -59,3 +60,33 @@ sudo mount -t nfs 10.10.78.73:home /tmp/mount/ -nolock
 There is a ssh key, log into the box.
 ## Exploitation
 Drop bash with root permissions onto the share and then set the SUID bit.
+
+# SMTP
+## Outline
+Simple Mail Transfer Protocol.
+Uses a protocol pair of SMTP and POP/IMAP (Post Office Protocol/ Internet Message Access Protocol)
+How does it work.
+1. Initiates a SMTP handshake, over port 25.
+2. The client send the email to the server
+3. The server checks the domain of sender is same as the recevier
+4. The server makes a connection to the recipient's SMTP server
+5. The Server verifies the incoming email.
+6. The email will show in the recipient's inbox.
+## Enumerating
+Use metasploit
+administrator is a valid username
+## Exploiting
+hydra
+
+# mysql
+## Outline
+Structured Query Language which is a relational database management system
+uses a client server model.
+Facebook uses a MySQL backend.
+## Enumerating
+3306
+use mysql
+more metasploit
+
+## Exploit
+metasploit again
