@@ -14,8 +14,8 @@
 [[buffer overflow 0]]
 
 ## [General Skills](General%20Skills.md)
-[[01 - strings it]]
-[[02 - Codebook]]
+[[strings it]]
+[[Codebook]]
 
 
 # [[02 - Hack The Box]]

@@ -1,5 +1,16 @@
-Links: [[00 - Global Index (Start Here!)]] [[01 - PicoGym]]
+* strings it
+* Codebook
 
-# [[General Skills]]
-[[01 - strings it]]
-[[02 - Codebook]]
+
+
+
+
+
+
+
+
+---
+Creation date: 23-10-2022
+
+Last modified date: Sunday 23rd October 2022
+***

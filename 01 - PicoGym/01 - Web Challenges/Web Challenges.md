@@ -1,6 +1,6 @@
-* [[GET aHEAD]]
-* [[Insp3ct0r]]
-* [where are the robots](where%20are%20the%20robots.md)
+* GET aHEAD
+* Insp3ct0r
+* where are the robots
 
 
 

@@ -1,0 +1,4 @@
+# Nmap 7.93 scan initiated Fri Oct 21 01:48:54 2022 as: nmap -sC -sV -oA nmap/mr-robot 10.10.221.82
+Host: 10.10.221.82 ()	Status: Up
+Host: 10.10.221.82 ()	Ports: 22/closed/tcp//ssh///, 80/open/tcp//http//Apache httpd/, 443/open/tcp//ssl|http//Apache httpd/	Ignored State: filtered (997)
+# Nmap done at Fri Oct 21 01:49:37 2022 -- 1 IP address (1 host up) scanned in 42.97 seconds

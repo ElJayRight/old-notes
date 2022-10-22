@@ -17,3 +17,6 @@
 		* [basic-file-exploit](01%20-%20PicoGym/02%20-%20Binary%20Exploitation/basic-file-exploit.md)
 		* [buffer overflow 0](01%20-%20PicoGym/02%20-%20Binary%20Exploitation/buffer%20overflow%200.md)
 		* [buffer overflow 1](01%20-%20PicoGym/02%20-%20Binary%20Exploitation/buffer%20overflow%201.md)
+	* [General Skills](01%20-%20PicoGym/03%20-%20General%20Skills/General%20Skills.md)
+		* [strings it](01%20-%20PicoGym/03%20-%20General%20Skills/strings%20it.md)
+		* [Codebook](01%20-%20PicoGym/03%20-%20General%20Skills/Codebook.md)

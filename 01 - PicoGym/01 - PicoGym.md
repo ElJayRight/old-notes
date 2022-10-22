@@ -1,24 +1,20 @@
-Links: [[00 - Global Index (Start Here!)]]
+# Web Challenges
+* GET aHEAD
+* Insp3ct0r
+* where are the robots
 
-# [01-PicoGym]
-***
-## [Web Challenges](Web%20Challenges.md)
-[[GET aHEAD]]
-[[Insp3ct0r]]
-[[where are the robots]]
+# Binary Exploitation
+* basic-file-exploit
+* buffer overflow 0
+* buffer overflow 1
 
-## [Binary Exploitation](Binary%20Exploitation.md)
-[[basic-file-exploit]]
-[[buffer overflow 0]]
-
-
-## [General Skills](General%20Skills.md)
-[[01 - strings it]]
-[[02 - Codebook]]
+# General Skills
+[[strings it]]
+[[Codebook]]
 
 
 ## [[Forensics]]
-[[01 - Information]]
+[[Information]]
 
 
 ---
