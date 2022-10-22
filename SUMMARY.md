@@ -20,3 +20,5 @@
 	* [General Skills](01%20-%20PicoGym/03%20-%20General%20Skills/General%20Skills.md)
 		* [strings it](01%20-%20PicoGym/03%20-%20General%20Skills/strings%20it.md)
 		* [Codebook](01%20-%20PicoGym/03%20-%20General%20Skills/Codebook.md)
+	* [Forensics](01%20-%20PicoGym/04%20-%20Forensics/Forensics.md)
+		* [Information](01%20-%20PicoGym/04%20-%20Forensics/Information.md)

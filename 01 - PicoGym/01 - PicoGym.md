@@ -9,15 +9,15 @@
 * buffer overflow 1
 
 # General Skills
-[[strings it]]
-[[Codebook]]
+* strings it
+* Codebook
 
-
-## [[Forensics]]
-[[Information]]
+# Forensics
+* Information
 
 
 ---
 Creation date: 08-10-2022
-Last modified date: Monday 10th October 2022
+
+Last modified date: Sunday 23rd October 2022
 ***
