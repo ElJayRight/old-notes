@@ -1,7 +1,4 @@
-Links [[00 - Global Index (Start Here!)]] [[ROP Emporium]]
-
 # Contents
-***
 - Task Description
 - 32 bit
 

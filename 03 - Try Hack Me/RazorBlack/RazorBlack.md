@@ -117,7 +117,7 @@ $krb5asrep$23$twilliams@RAZ0RBLACK.THM:204f5a58560ef786e5f0120345ba62d2$929df2cd
 see if anyother user on smb has the same password.
 
 sbradley does.
-login to the trash sahre and crack the zip with zip2john
+login to the trash share and crack the zip with zip2john
 electromagnetismo
 
 from here find ljudmilas hash for a winrm shell f220d3988deb3f516c73f40ee16c431d 

@@ -1,18 +1,13 @@
-Links [[00 - Global Index (Start Here!)]] [[ROP Emporium]]
-
 # Contents
-***
 - Task Description
 - 32 bit
 - 64 bit
 
 ## Task Description
-
 Locate a method that you want to call within the binary.  
 Call it by overwriting a saved return address on the stack.
 
 ## 32 bit
-
 File checks:
 32 bit ELF with no canaries
 Checking function from within pwndbg.
@@ -42,7 +37,6 @@ ROPE{a_placeholder_32byte_flag!}
 ```
 
 ## 64 bit
-
 File Checks
 64bit ELF with no canaries
 Same three function as the 32bit

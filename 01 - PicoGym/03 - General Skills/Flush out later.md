@@ -25,5 +25,29 @@ picoCTF{m45h_fl1ng1ng_2b072a90}
 pw crack 4
 picoCTF{fl45h_5pr1ng1ng_cf341ff1}
 
+pw crack 5
+picoCTF{h45h_sl1ng1ng_40f26f81}
+
 flag_shop
 picoCTF{m0n3y_bag5_68d16363}
+
+mus1c
+rockstar decoder to bytes
+picoCTF{rrrocknrn0113r}
+
+runme.py
+picoCTF{run_s4n1ty_run}
+
+serpentine
+picoCTF{7h3_r04d_l355_7r4v3l3d_ae0b80bd}
+
+First find
+picoCTF{f1nd_15_f457_ab443fd1}
+
+Big zip
+picoCTF{gr3p_15_m4g1c_ef8790dc}
+
+Based
+
+plumber
+picoCTF{digital_plumb3r_ea8bfec7}
