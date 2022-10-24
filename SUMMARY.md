@@ -1,5 +1,13 @@
 # Summary
 
+* [Projects](06%20-%20Random%20Shit/Projects)
+	* [Bad USB (with a bit of AV evasion)](06%20-%20Random%20Shit/A%20quest%20to%20make%20a%20good%20bad%20usb.md)
+* Hack the box
+	* Active Directory
+		* [Active](02%20-%20Hack%20The%20Box/Intro%20to%20Active%20directory/Active/Active.md)
+		* [Forest](02%20-%20Hack%20The%20Box/Intro%20to%20Active%20directory/Forest/Forest.md)
+		* [Resolute](02%20-%20Hack%20The%20Box/Intro%20to%20Active%20directory/Resolute)
+		* [Sauna](02%20-%20Hack%20The%20Box/Intro%20to%20Active%20directory/Sauna/Sauna.md)
 * [ROP Emporium](05%20-%20ROP%20Emporium/ROP%20Emporium.md)
 	* [ret2win](05%20-%20ROP%20Emporium/01%20-%20ret2win.md)
 	* [split](05%20-%20ROP%20Emporium/02%20-%20split.md)
@@ -10,9 +18,9 @@
 	- [Nagini](04%20-%20Vulnhub/Nagini/Nagini.md)
 * [Pico Gym](01%20-%20PicoGym/01%20-%20PicoGym.md)
 	* [Web](01%20-%20Web%20Challenges/Web%20Challenges.md)
-		* [Get aHEAD](GET%20aHEAD.md)
-		* [Inspec3t0r](Insp3ct0r.md)
-		* [where are the robots](where%20are%20the%20robots.md)
+		* [Get aHEAD](01%20-%20PicoGym/01%20-%20Web%20Challenges/GET%20aHEAD.md)
+		* [Inspec3t0r](01%20-%20PicoGym/01%20-%20Web%20Challenges/Insp3ct0r.md)
+		* [where are the robots](01%20-%20PicoGym/01%20-%20Web%20Challenges/where%20are%20the%20robots.md)
 	* [Binary Exploitation](02%20-%20Binary%20Exploitation/Binary%20Exploitation.md)
 		* [basic-file-exploit](01%20-%20PicoGym/02%20-%20Binary%20Exploitation/basic-file-exploit.md)
 		* [buffer overflow 0](01%20-%20PicoGym/02%20-%20Binary%20Exploitation/buffer%20overflow%200.md)
