@@ -157,3 +157,11 @@ Dont have hardcoded credentials for an encryption algorithm (Audit.exe)
 Why does s.smith need to be able to view the database?
 Have a stronger password policy and have rotations every 30 days.
 Disable winrm on all accounts that dont need it.
+
+
+
+---
+Creation date: 28-10-2022
+
+Last modified date: Friday 28th October 2022
+***
