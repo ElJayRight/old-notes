@@ -11,7 +11,7 @@ Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
 
 Host script results:
 |_smb2-security-mode: SMB: Couldn\'t find a NetBIOS name that works for the server. Sorry!
-|_smb2-time: ERROR: Script execution failed (use -d to debug)
+|_smb2-time: terERROR: Script execution failed (use -d to debug)
 
 ```
 All Ports
