@@ -4,11 +4,11 @@
 	* [Bad USB (with a bit of AV evasion)](06%20-%20Random%20Shit/A%20quest%20to%20make%20a%20good%20bad%20usb.md)
 * Hack the box
 	* Active Directory
-		* [Active](02%20-%20Hack%20The%20Box/Intro%20to%20Active%20directory/Active/Active.md)
-		* [Forest](02%20-%20Hack%20The%20Box/Intro%20to%20Active%20directory/Forest/Forest.md)
-		* [Resolute](02%20-%20Hack%20The%20Box/Intro%20to%20Active%20directory/Resolute)
-		* [Sauna](02%20-%20Hack%20The%20Box/Intro%20to%20Active%20directory/Sauna/Sauna.md)
-		* [Cascade](02%20-%20Hack%20The%20Box/Intro%20to%20Active%20directory/Cascade/Cascade.md)
+		* [Active](Active.md)
+		* [Forest](Forest.md)
+		* [Resolute](htb/Intro%20to%20Active%20directory/Resolute)
+		* [Sauna](Sauna.md)
+		* [Cascade](Cascade.md)
 * [ROP Emporium](05%20-%20ROP%20Emporium/ROP%20Emporium.md)
 	* [ret2win](05%20-%20ROP%20Emporium/01%20-%20ret2win.md)
 	* [split](05%20-%20ROP%20Emporium/02%20-%20split.md)

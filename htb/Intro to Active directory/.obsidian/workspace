@@ -1,0 +1,96 @@
+{
+  "main": {
+    "id": "46b94a47865de820",
+    "type": "split",
+    "children": [
+      {
+        "id": "f34f10d83e6bb021",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Resolute/readme.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ab6d7c1adc2fb9f5",
+    "type": "split",
+    "children": [
+      {
+        "id": "c480813983a6a4f6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f9bd39ef95f57294",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "63eeae71b8d2cef2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d4e688d7473b7fda",
+    "type": "split",
+    "children": [
+      {
+        "id": "8d47f72a26475f95",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eca6b872899b8b51",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Resolute/readme.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "f34f10d83e6bb021",
+  "lastOpenFiles": [
+    "Resolute/readme.md",
+    "Forest/Forest.md",
+    "Active/Active.md",
+    "Active/ldap_svc_tgs.md"
+  ]
+}
