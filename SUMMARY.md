@@ -6,7 +6,7 @@
 	* Active Directory
 		* [Active](Active.md)
 		* [Forest](Forest.md)
-		* [Resolute](htb/Intro%20to%20Active%20directory/Resolute)
+		* [Resolute](02%20-%20Hack%20The%20Box/Intro%20to%20Active%20directory/Resolute)
 		* [Sauna](Sauna.md)
 		* [Cascade](Cascade.md)
 * [ROP Emporium](05%20-%20ROP%20Emporium/ROP%20Emporium.md)
