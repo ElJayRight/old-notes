@@ -170,3 +170,32 @@ We enumerated smb again with the new credentials and found a Audit$ drive, which
 
 ## Escalation to Domain Administrator
 ***
+The ArkSvc user is a member of the recycle bin group which can read files that have been deleted.
+
+```powershell
+Get-ADObject -SearchBase "CN=Deleted Objects,DC=Cascade,DC=Local" -Filter
+{ObjectClass -eq "user"} -IncludeDeletedObjects -Properties *
+```
+There is a file that contains the password for tempadmin which is also the default admin password for the domain.
+```
+baCT3r1aN00dles
+```
+
+We then proceeded to login as the administrator account with winrm, which results in domain admin.
+
+# Conclusion
+***
+
+## Recommendations
+***
+Do not reuse passwords for admin accounts.
+Remove the cascadeLegacyPwd field from r.thompson and tempadmin from their AD objects
+Use a better vnc type as this one has a static password, so the encryption is useless.
+Do not have hard coded credentials for an encryption algorithm (Audit.exe)
+Why does s.smith need to be able to view the database?
+Have a stronger password policy and have rotations every 30 days.
+Disable winrm on all accounts that dont need it.
+
+## Risk Rating
+***
+Overall there is a **high** risk identified from this report. There is a direct path for an external attacker to have full system compromise. There is very realistic that an malicious entity would be able to execute this attack through this attack chain. 
