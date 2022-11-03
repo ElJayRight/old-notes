@@ -1,25 +1,24 @@
 # Table of Contents
-**Executive Summary**
-* Summary of results
-**Attack Path**
-* LDAP discovery and enumeration
-* Authenticated SMB enumeration
-*  Lateral movement to interactive shell
-* Administrative Privilege Escalation
-* Escalation to Domain Administrator
-**Conclusion**
-* Recommendation
-* Risk Rating
-**Appendix: Vulnerability Detail and Mitigation**
-* Unauthenticated LDAP enumeration
-* Password attributes field in LDAP
-* User Access control
-* Weak/Static Key Encryption
-* Password Reuse
+* **Executive Summary**
+	* Summary of results
+* **Attack Path**
+	* LDAP discovery and enumeration
+	* Authenticated SMB enumeration
+	*  Lateral movement to interactive shell
+	* Administrative Privilege Escalation
+	* Escalation to Domain Administrator
+* **Conclusion**
+	* Recommendation
+	* Risk Rating
+* **Appendix: Vulnerability Detail and Mitigation**
+	* Unauthenticated LDAP enumeration
+	* Password attributes field in LDAP
+	* User Access control
+	* Weak/Static Key Encryption
+	* Password Reuse
 
 # Executive Summary
 ### Summary of results
-
 
 # Attack Path
 ## LDAP discovery and enumeration
