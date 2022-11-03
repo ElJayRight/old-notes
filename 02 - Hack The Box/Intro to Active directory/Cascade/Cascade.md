@@ -174,13 +174,13 @@ d5a30650809a2b377278273b7d0b7f38
 Didn't add any files.
 
 # Recommendations
-Dont reuse passwords for admin accounts.
-Remove the cascadeLegacyPwd field from r.thompson and tempadmin from within LDAP.
-Use a better vnc type as this one has a static password, so the encryption is useless.
-Dont have hardcoded credentials for an encryption algorithm (Audit.exe)
-Why does s.smith need to be able to view the database?
-Have a stronger password policy and have rotations every 30 days.
-Disable winrm on all accounts that dont need it.
+- Dont reuse passwords for admin accounts.
+- Remove the cascadeLegacyPwd field from r.thompson and tempadmin from within LDAP.
+- Use a better vnc type as this one has a static password, so the encryption is useless.
+- Dont have hardcoded credentials for an encryption algorithm (Audit.exe)
+- Why does s.smith need to be able to view the database?
+- Have a stronger password policy and have rotations every 30 days.
+- Disable winrm on all accounts that dont need it.
 
 
 

@@ -1,0 +1,4 @@
+# Nmap 7.93 scan initiated Sun Oct 30 07:36:20 2022 as: nmap -sC -sV -oA nmap/backdoor 10.10.11.125
+Host: 10.10.11.125 ()	Status: Up
+Host: 10.10.11.125 ()	Ports: 22/open/tcp//ssh//OpenSSH 8.2p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.41 ((Ubuntu))/	Ignored State: closed (998)
+# Nmap done at Sun Oct 30 07:36:31 2022 -- 1 IP address (1 host up) scanned in 11.85 seconds

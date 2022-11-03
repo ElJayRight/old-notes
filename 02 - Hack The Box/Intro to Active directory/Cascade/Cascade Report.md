@@ -1,4 +1,3 @@
-
 Table of Contents
 ***
 **Executive Summary**
@@ -188,13 +187,13 @@ We then proceeded to login as the administrator account with winrm, which result
 
 ## Recommendations
 ***
-Do not reuse passwords for admin accounts.
-Remove the cascadeLegacyPwd field from r.thompson and tempadmin from their AD objects
-Use a better vnc type as this one has a static password, so the encryption is useless.
-Do not have hard coded credentials for an encryption algorithm (Audit.exe)
-Why does s.smith need to be able to view the database?
-Have a stronger password policy and have rotations every 30 days.
-Disable winrm on all accounts that dont need it.
+- Do not reuse passwords for admin accounts.
+- Remove the cascadeLegacyPwd field from r.thompson and tempadmin from their AD objects
+- Use a better vnc type as this one has a static password, so the encryption is useless.
+- Do not have hard coded credentials for an encryption algorithm (Audit.exe)
+- Why does s.smith need to be able to view the database?
+- Have a stronger password policy and have rotations every 30 days.
+- Disable winrm on all accounts that do not need it.
 
 ## Risk Rating
 ***

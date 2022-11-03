@@ -1,8 +1,3 @@
-Links [[00 - Global Index (Start Here!)]] [[04 - Vulnhub]]
-
-# [Aragog]
----
-## Notes
 Nmap scan shows two ports open:
  - 22 ssh
  - 80 http
@@ -20,10 +15,7 @@ logging in a dumping the wp-users table give a hash for hagrid98 cracking with h
 
 Priv esc:
 
-Linpeas.sh showed that there is a file created by hagrid98 called /opt/.backup.sh which is a bash script run by root. Adding a rev shell to the end give root access.
-
-:)
-
+Linpeas.sh showed that there is a file created by hagrid98 called /opt/.backup.sh which is a bash script run by root. Adding a rev shell to the end will give a root shell.
 
 
 ---

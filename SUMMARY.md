@@ -2,11 +2,13 @@
 
 * [Projects](06%20-%20Random%20Shit/Projects)
 	* [Bad USB (with a bit of AV evasion)](06%20-%20Random%20Shit/A%20quest%20to%20make%20a%20good%20bad%20usb.md)
+* HTB Reports
+	* [Cascade](Cascade%20Report)
 * Hack the box
 	* Active Directory
 		* [Active](Active.md)
 		* [Forest](Forest.md)
-		* [Resolute](02%20-%20Hack%20The%20Box/Intro%20to%20Active%20directory/Resolute)
+		* [Resolute](02%20-%20Hack%20The%20Box/Intro%20to%20Active%20directory/Resolute.md)
 		* [Sauna](Sauna.md)
 		* [Cascade](Cascade.md)
 * [ROP Emporium](05%20-%20ROP%20Emporium/ROP%20Emporium.md)
@@ -16,7 +18,6 @@
 	* [write](05%20-%20ROP%20Emporium/04%20-%20write.md)
 - [Vulnhub](04%20-%20Vulnhub/04%20-%20Vulnhub)
 	- [Aragog](04%20-%20Vulnhub/Aragog/Aragog.md)
-	- [Nagini](04%20-%20Vulnhub/Nagini/Nagini.md)
 * [Pico Gym](01%20-%20PicoGym/01%20-%20PicoGym.md)
 	* [Web](01%20-%20Web%20Challenges/Web%20Challenges.md)
 		* [Get aHEAD](01%20-%20PicoGym/01%20-%20Web%20Challenges/GET%20aHEAD.md)
