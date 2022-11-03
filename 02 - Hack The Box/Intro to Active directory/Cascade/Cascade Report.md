@@ -1,31 +1,27 @@
-Table of Contents
-***
+# Table of Contents
 **Executive Summary**
-	Summary of results
+* Summary of results
 **Attack Path**
-	LDAP discovery and enumeration
-	Authenticated SMB enumeration
-	Lateral movement to interactive shell
-	Administrative Privilege Escalation
-	Escalation to Domain Administrator
+* LDAP discovery and enumeration
+* Authenticated SMB enumeration
+*  Lateral movement to interactive shell
+* Administrative Privilege Escalation
+* Escalation to Domain Administrator
 **Conclusion**
-	Recommendation
-	Risk Rating
+* Recommendation
+* Risk Rating
 **Appendix: Vulnerability Detail and Mitigation**
-	Unauthenticated LDAP enumeration
-	Password attributes field in LDAP
-	User Access control
-	Weak/Static Key Encryption
-	Password Reuse
-***
+* Unauthenticated LDAP enumeration
+* Password attributes field in LDAP
+* User Access control
+* Weak/Static Key Encryption
+* Password Reuse
 
 # Executive Summary
-***
 ### Summary of results
 
 
 # Attack Path
-***
 ## LDAP discovery and enumeration
 Scanned the IP with nmap and discovered 13 open TCP ports. The automated scripts revealed the hostname of cascade.local.
 
@@ -93,7 +89,6 @@ rY4n53va
 ```
 
 ## Authenticated SMB enumeration
-***
 Listed all the files that r.thompson can view within smb
 ```bash
 crackmapexec smb 10.10.10.182 -u r.thompson -p rY4n5eva -M spider_plus
@@ -101,7 +96,6 @@ crackmapexec smb 10.10.10.182 -u r.thompson -p rY4n5eva -M spider_plus
 This user can view a vnc install.reg file within another user's folder.
 
 ## Lateral movement to interactive shell
-***
 When viewing the file there is an encrypted password.
 ```bash
 cat VNC\ Install.reg 
@@ -164,11 +158,9 @@ evil-winrm -i 10.10.10.182 -u s.smith -p sT333ve2
 ```
 
 ## Administrative Privilege Escalation
-***
 We enumerated smb again with the new credentials and found a Audit$ drive, which has an executable. Reverse engineering the executable reveals the password `W3lc0meFr31nd` for the ArkSvc user which has administrator privileges.
 
 ## Escalation to Domain Administrator
-***
 The ArkSvc user is a member of the recycle bin group which can read files that have been deleted.
 
 ```powershell
@@ -183,10 +175,7 @@ baCT3r1aN00dles
 We then proceeded to login as the administrator account with winrm, which results in domain admin.
 
 # Conclusion
-***
-
 ## Recommendations
-***
 - Do not reuse passwords for admin accounts.
 - Remove the cascadeLegacyPwd field from r.thompson and tempadmin from their AD objects
 - Use a better vnc type as this one has a static password, so the encryption is useless.
@@ -196,5 +185,4 @@ We then proceeded to login as the administrator account with winrm, which result
 - Disable winrm on all accounts that do not need it.
 
 ## Risk Rating
-***
 Overall there is a **high** risk identified from this report. There is a direct path for an external attacker to have full system compromise. There is very realistic that an malicious entity would be able to execute this attack through this attack chain. 
