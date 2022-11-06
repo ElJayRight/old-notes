@@ -1,5 +1,0 @@
-[1 - Meow]]
-[[2 - Fawn]]
-[[3 - Dancing]]
-[[4 - Explosion]]
-[[5 - Preignition]]

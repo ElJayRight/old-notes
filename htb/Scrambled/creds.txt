@@ -1,2 +1,0 @@
-ksimpson:ksimpson
-sqlsvc:Pegasus60:MSSQLSvc/dc1.scrm.local
