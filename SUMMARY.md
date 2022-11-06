@@ -21,7 +21,7 @@
 		* Tier 1
 			* [Appointment](02%20-%20Hack%20The%20Box/Starting%20Point/Tier%201/Appointment.md)
 			* [Crocodile](02%20-%20Hack%20The%20Box/Starting%20Point/Tier%201/Crocodile.md)
-			* [Sequel](02%20-%20Hack%20The%20Box/Starting%20Point/Tier%201/Sequel)
+			* [Sequel](02%20-%20Hack%20The%20Box/Starting%20Point/Tier%201/Sequel.md)
 	* [PhotoBomb](02%20-%20Hack%20The%20Box/PhotoBomb/Photobomb.md)
 	* [Heist](02%20-%20Hack%20The%20Box/Heist/Heist.md)
 * TryHackMe
