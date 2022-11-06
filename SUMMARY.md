@@ -11,6 +11,13 @@
 		* [Resolute](02%20-%20Hack%20The%20Box/Intro%20to%20Active%20directory/Resolute/Resolute.md)
 		* [Sauna](Sauna.md)
 		* [Cascade](Cascade.md)
+	* Starting Point
+		* Tier 0
+			* [Dancing](Dancing.md)
+			* [Explosion](Explosion.md)
+			* [Fawn](Fawn.md)
+			* [Meow](Meow.md)
+			* [Preignition](Preignition.md)
 	* [PhotoBomb](02%20-%20Hack%20The%20Box/PhotoBomb/Photobomb.md)
 	* [Heist](02%20-%20Hack%20The%20Box/Heist/Heist.md)
 * TryHackMe

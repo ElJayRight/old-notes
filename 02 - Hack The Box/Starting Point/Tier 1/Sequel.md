@@ -28,5 +28,4 @@ Task 7
 
 Task 8
 - Submit flag:
-	- ```
-	7b4bec00d1a39e3dd4e021ec3d915da8
+	- `7b4bec00d1a39e3dd4e021ec3d915da8`
