@@ -13,11 +13,11 @@
 		* [Cascade](Cascade.md)
 	* Starting Point
 		* Tier 0
-			* [Dancing](Dancing.md)
-			* [Explosion](Explosion.md)
-			* [Fawn](Fawn.md)
-			* [Meow](Meow.md)
-			* [Preignition](Preignition.md)
+			* [Dancing](02%20-%20Hack%20The%20Box/Starting%20Point/Tier%200/Dancing.md)
+			* [Explosion](02%20-%20Hack%20The%20Box/Starting%20Point/Tier%200/Explosion.md)
+			* [Fawn](02%20-%20Hack%20The%20Box/Starting%20Point/Tier%200/Fawn.md)
+			* [Meow](02%20-%20Hack%20The%20Box/Starting%20Point/Tier%200/Meow.md)
+			* [Preignition](02%20-%20Hack%20The%20Box/Starting%20Point/Tier%200/Preignition.md)
 	* [PhotoBomb](02%20-%20Hack%20The%20Box/PhotoBomb/Photobomb.md)
 	* [Heist](02%20-%20Hack%20The%20Box/Heist/Heist.md)
 * TryHackMe
