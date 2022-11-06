@@ -5,12 +5,14 @@
 * HTB Reports
 	* [Cascade](02%20-%20Hack%20The%20Box/Intro%20to%20Active%20directory/Cascade/Cascade%20Report.md)
 * Hack the box
-	* Active Directory
-		* [Active](Active.md)
-		* [Forest](Forest.md)
-		* [Resolute](02%20-%20Hack%20The%20Box/Intro%20to%20Active%20directory/Resolute/Resolute.md)
-		* [Sauna](Sauna.md)
-		* [Cascade](Cascade.md)
+	* [Readme](02%20-%20Hack%20The%20Box/Readme.md)
+	* [Active](Active.md)
+	* [Cascade](Cascade.md)
+	* [Forest](Forest.md)
+	* [Heist](02%20-%20Hack%20The%20Box/Heist/Heist.md)
+	* [PhotoBomb](02%20-%20Hack%20The%20Box/PhotoBomb/Photobomb.md)
+	* [Resolute](02%20-%20Hack%20The%20Box/Intro%20to%20Active%20directory/Resolute/Resolute.md)
+	* [Sauna](Sauna.md)
 	* Starting Point
 		* Tier 0
 			* [Dancing](02%20-%20Hack%20The%20Box/Starting%20Point/Tier%200/Dancing.md)
@@ -22,8 +24,6 @@
 			* [Appointment](02%20-%20Hack%20The%20Box/Starting%20Point/Tier%201/Appointment.md)
 			* [Crocodile](02%20-%20Hack%20The%20Box/Starting%20Point/Tier%201/Crocodile.md)
 			* [Sequel](02%20-%20Hack%20The%20Box/Starting%20Point/Tier%201/Sequel.md)
-	* [PhotoBomb](02%20-%20Hack%20The%20Box/PhotoBomb/Photobomb.md)
-	* [Heist](02%20-%20Hack%20The%20Box/Heist/Heist.md)
 * TryHackMe
 	* [Mr Robot](03%20-%20Try%20Hack%20Me/Mr%20Robot%20CTF/Mr%20Robot.md)
 	* [Holo AD lab](03%20-%20Try%20Hack%20Me/AD%20LABS%20With%20Pentest%20Reports/Holo/Holo%20Notes%20Live.md)
