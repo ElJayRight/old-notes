@@ -6,13 +6,13 @@
 	* [Cascade](02%20-%20Hack%20The%20Box/Intro%20to%20Active%20directory/Cascade/Cascade%20Report.md)
 * Hack the box
 	* [Readme](02%20-%20Hack%20The%20Box/Readme.md)
-	* [Active](Active.md)
-	* [Cascade](Cascade.md)
-	* [Forest](Forest.md)
+	* [Active](02%20-%20Hack%20The%20Box/Active/Active.md)
+	* [Cascade](02%20-%20Hack%20The%20Box/Cascade/Cascade.md)
+	* [Forest](02%20-%20Hack%20The%20Box/Forest/Forest.md)
 	* [Heist](02%20-%20Hack%20The%20Box/Heist/Heist.md)
 	* [PhotoBomb](02%20-%20Hack%20The%20Box/PhotoBomb/Photobomb.md)
-	* [Resolute](02%20-%20Hack%20The%20Box/Intro%20to%20Active%20directory/Resolute/Resolute.md)
-	* [Sauna](Sauna.md)
+	* [Resolute](02%20-%20Hack%20The%20Box/Resolute/Resolute.md)
+	* [Sauna](02%20-%20Hack%20The%20Box/Sauna/Sauna.md)
 	* Starting Point
 		* Tier 0
 			* [Dancing](02%20-%20Hack%20The%20Box/Starting%20Point/Tier%200/Dancing.md)
