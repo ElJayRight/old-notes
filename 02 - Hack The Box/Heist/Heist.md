@@ -97,7 +97,7 @@ some dir magic on windows:
 gci -recurse . | select fullname
 ```
 
-Can dump process with sysinternals procdump64 -ma of firefox processes adn find password for website
+Can dump process with sysinternals procdump64 -ma of firefox processes and find password for website
 get new password for admin with winrm
 ```
 administrator:4dD!5}x/re8]FBuZ

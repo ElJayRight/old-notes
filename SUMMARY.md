@@ -1,6 +1,6 @@
 # Summary
 
-* [Projects](06%20-%20Random%20Shit/Projects)
+* Projects
 	* [Bad USB (with a bit of AV evasion)](06%20-%20Random%20Shit/A%20quest%20to%20make%20a%20good%20bad%20usb.md)
 * HTB Reports
 	* [Cascade](02%20-%20Hack%20The%20Box/Intro%20to%20Active%20directory/Cascade/Cascade%20Report.md)
@@ -8,36 +8,39 @@
 	* Active Directory
 		* [Active](Active.md)
 		* [Forest](Forest.md)
-		* [Resolute](02%20-%20Hack%20The%20Box/Intro%20to%20Active%20directory/Resolute.md)
+		* [Resolute](02%20-%20Hack%20The%20Box/Intro%20to%20Active%20directory/Resolute/Resolute.md)
 		* [Sauna](Sauna.md)
 		* [Cascade](Cascade.md)
 	* [PhotoBomb](02%20-%20Hack%20The%20Box/PhotoBomb/Photobomb.md)
+	* [Heist](02%20-%20Hack%20The%20Box/Heist/Heist.md)
 * TryHackMe
 	* [Mr Robot](03%20-%20Try%20Hack%20Me/Mr%20Robot%20CTF/Mr%20Robot.md)
-	* [Holo AD lab]
-	* [Wreath AD lab]
-* [ROP Emporium](05%20-%20ROP%20Emporium/ROP%20Emporium.md)
+	* [Holo AD lab](03%20-%20Try%20Hack%20Me/AD%20LABS%20With%20Pentest%20Reports/Holo/Holo%20Notes%20Live.md)
+	* [Wreath AD lab](03%20-%20Try%20Hack%20Me/AD%20LABS%20With%20Pentest%20Reports/Wreath/Notes.md)
+	* [Attacktive Directory](03%20-%20Try%20Hack%20Me/Attacktive%20Directory/Attacktive%20Directory.md)
+	* [RazorBlack](03%20-%20Try%20Hack%20Me/RazorBlack/RazorBlack.md)
+* ROP Emporium
 	* [ret2win](05%20-%20ROP%20Emporium/01%20-%20ret2win.md)
 	* [split](05%20-%20ROP%20Emporium/02%20-%20split.md)
 	* [callme](05%20-%20ROP%20Emporium/03%20-%20callme.md)
 	* [write](05%20-%20ROP%20Emporium/04%20-%20write.md)
-- [Vulnhub](04%20-%20Vulnhub/04%20-%20Vulnhub)
+- Vulnhub
 	- [Aragog](04%20-%20Vulnhub/Aragog/Aragog.md)
-* [Pico Gym](01%20-%20PicoGym/01%20-%20PicoGym.md)
-	* [Web](01%20-%20Web%20Challenges/Web%20Challenges.md)
+* Pico Gym
+	* Web
 		* [Get aHEAD](01%20-%20PicoGym/01%20-%20Web%20Challenges/GET%20aHEAD.md)
 		* [Inspec3t0r](01%20-%20PicoGym/01%20-%20Web%20Challenges/Insp3ct0r.md)
 		* [where are the robots](01%20-%20PicoGym/01%20-%20Web%20Challenges/where%20are%20the%20robots.md)
-	* [Binary Exploitation](02%20-%20Binary%20Exploitation/Binary%20Exploitation.md)
+	* Binary Exploitation
 		* [basic-file-exploit](01%20-%20PicoGym/02%20-%20Binary%20Exploitation/basic-file-exploit.md)
 		* [buffer overflow 0](01%20-%20PicoGym/02%20-%20Binary%20Exploitation/buffer%20overflow%200.md)
 		* [buffer overflow 1](01%20-%20PicoGym/02%20-%20Binary%20Exploitation/buffer%20overflow%201.md)
 		* [buffer overflow 2](01%20-%20PicoGym/02%20-%20Binary%20Exploitation/buffer%20overflow%202.md)
 		* [buffer overflow 3](01%20-%20PicoGym/02%20-%20Binary%20Exploitation/buffer%20overflow%203.md)
 		* [x-sixty-what](01%20-%20PicoGym/02%20-%20Binary%20Exploitation/x-sixty-what.md)
-	* [General Skills](01%20-%20PicoGym/03%20-%20General%20Skills/General%20Skills.md)
+	* General Skills
 		* [strings it](01%20-%20PicoGym/03%20-%20General%20Skills/strings%20it.md)
 		* [Codebook](01%20-%20PicoGym/03%20-%20General%20Skills/Codebook.md)
-	* [Forensics](01%20-%20PicoGym/04%20-%20Forensics/Forensics.md)
+	* Forensics
 		* [Information](01%20-%20PicoGym/04%20-%20Forensics/Information.md)
 

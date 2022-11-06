@@ -1,10 +1,5 @@
-Links [[00 - Global Index (Start Here!)]] [[02 - Hack The Box]]
-
-# [Seventeen]
----
-## Notes
 IP: 10.10.11.165
-Nmap scan
+## Nmap scan
 3 ports open
 22 ssh
 80 http : apache 2.4.29 (ubuntu)
