@@ -147,10 +147,9 @@ use creds for smb (svc-alfresco:s3rvice)
 	SYSVOL          Disk      Logon server share 
 ```
 
-on box so Winpeas
-nothing really so bloodhound cause active dir
+Bloodhound time.
 
-but first we need ot put bloodhound on the box.
+but first we need to put bloodhound on the box.
  smb server
  ```bash
  ./smbserver.py Name $(pwd) -smb2support -user kali -password kali

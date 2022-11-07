@@ -54,7 +54,10 @@ cat file | grep -i samaccountname | awk '{print $2}'
 ```
 check password pol
 there is no lockout
-Password found in rpcclietnt (mine wouldnt login?)
-melanie:Welcome123!
+Search ldap for a description field.
+Found a password of Welcome123! which seems to be the default password.
+Run kerbrute against username list and get a hit on
+Melanie
+
 check for winrm which works
 then login and get user flag.
