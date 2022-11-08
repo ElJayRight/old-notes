@@ -4,7 +4,7 @@
 * **Attack Path**
 	* LDAP discovery and enumeration
 	* Authenticated SMB enumeration
-	*  Lateral movement to interactive shell
+	* Lateral movement to interactive shell
 	* Administrative Privilege Escalation
 	* Escalation to Domain Administrator
 * **Conclusion**
@@ -18,7 +18,13 @@
 	* Password Reuse
 
 # Executive Summary
+I hacked your company with leet skillz. Fix the exploits below before someone exfils and leaks all your data, also your pay is now my pay :) :eyes:
+
+
 ### Summary of results
+Initial recon showed unauthenticated LDAP access which gave us a valid set of user credentials. The credentials were then used to log into SMB and an encrypted password. The encryption uses a static key which is publicly known which allows the password to be decrypted. This allowed lateral movement to a different user account that can login to the domain controller via windows remoting. 
+
+Enumeration of the SMB shares with the new account revealed a .NET executable that was reverse engineered to show valid credentials for a service account. This service account has administrator privileges and can read deleted files via the AD recycling bin group. After enumerating the deleted files, one file contained credentials for the tempadmin account. This account also has the default admin password (leaked via an internal company email on the share drive). This new password allows privilege escalation to the administrator account, which is a domain admin.
 
 # Attack Path
 ## LDAP discovery and enumeration
