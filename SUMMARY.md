@@ -3,7 +3,7 @@
 * Projects
 	* [Bad USB (with a bit of AV evasion)](06%20-%20Random%20Shit/A%20quest%20to%20make%20a%20good%20bad%20usb.md)
 * HTB Reports
-	* [Cascade](02%20-%20Hack%20The%20Box/Intro%20to%20Active%20directory/Cascade/Cascade%20Report.md)
+	* [Cascade](02%20-%20Hack%20The%20Box/Cascade/Cascade%20Report.md)
 * Hack the box
 	* [Readme](02%20-%20Hack%20The%20Box/Readme.md)
 	* [Active](02%20-%20Hack%20The%20Box/Active/Active.md)
