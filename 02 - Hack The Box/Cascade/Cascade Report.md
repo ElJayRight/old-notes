@@ -18,7 +18,7 @@
 	* Password Reuse
 
 # Executive Summary
-I hacked your company with leet skillz. Fix the exploits below before someone exfils and leaks all your data, also your pay is now my pay :) :eyes:
+Company A conducted an Internal security assessment on Company B. This revealed several security vulnerabilities which allowed Company B to have complete control over the internal system. This can result in leaked internal documents and changing the details of employee payments. Attached below is the attack path and vulnerability disclosure and mitigation strategies. 
 
 
 ### Summary of results
