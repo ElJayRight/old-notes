@@ -25,6 +25,7 @@ ropper -f callme32 --search pop
 0x080487f9: pop esi; pop edi; pop ebp; ret; 
 ```
 Using this memory location the exploit chain will look like this:
+```txt
 
 Offset
 callme1
@@ -42,6 +43,7 @@ gadget
 arg1
 arg2
 arg3
+```
 
 Next is to find the buffer size.
 44
