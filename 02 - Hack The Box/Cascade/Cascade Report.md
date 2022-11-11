@@ -12,16 +12,15 @@
 	* Risk Rating
 * **Appendix: Vulnerability Detail and Mitigation**
 	* Unauthenticated LDAP enumeration
-	* Password attributes field in LDAP
+	* Password attributes field in AD Object
 	* User Access control
 	* Weak/Static Key Encryption
 	* Password Reuse
 
 # Executive Summary
-Company A conducted an Internal security assessment on Company B. This revealed several security vulnerabilities which allowed Company B to have complete control over the internal system. This can result in leaked internal documents and changing the details of employee payments. Attached below is the attack path and vulnerability disclosure and mitigation strategies. 
+Company A conducted an Internal security assessment on Company B. This revealed several security vulnerabilities which allowed Company B to have complete control over the internal system. This can result in leaked internal documents and changed payroll information. Attached below is the attack path and vulnerability disclosure and mitigation strategies. 
 
-
-### Summary of results
+## Summary of results
 Initial recon showed unauthenticated LDAP access which gave us a valid set of user credentials. The credentials were then used to log into SMB and an encrypted password. The encryption uses a static key which is publicly known which allows the password to be decrypted. This allowed lateral movement to a different user account that can login to the domain controller via windows remoting. 
 
 Enumeration of the SMB shares with the new account revealed a .NET executable that was reverse engineered to show valid credentials for a service account. This service account has administrator privileges and can read deleted files via the AD recycling bin group. After enumerating the deleted files, one file contained credentials for the tempadmin account. This account also has the default admin password (leaked via an internal company email on the share drive). This new password allows privilege escalation to the administrator account, which is a domain admin.
@@ -184,10 +183,25 @@ We then proceeded to login as the administrator account with winrm, which result
 - Do not reuse passwords for admin accounts.
 - Remove the cascadeLegacyPwd field from r.thompson and tempadmin from their AD objects
 - Use a better vnc type as this one has a static password, so the encryption is useless.
-- Do not have hard coded credentials for an encryption algorithm (Audit.exe)
-- Why does s.smith need to be able to view the database?
+- Do not have hard coded encryption keys for an encryption algorithm (Audit.exe)
+- Why does the s.smith need to be able to view the database?
 - Have a stronger password policy and have rotations every 30 days.
 - Disable winrm on all accounts that do not need it.
 
 ## Risk Rating
-Overall there is a **high** risk identified from this report. There is a direct path for an external attacker to have full system compromise. There is very realistic that an malicious entity would be able to execute this attack through this attack chain. 
+Overall there is a **high** risk identified from this report. There is a direct path for an external attacker to have full system compromise. There is very realistic chance that a malicious entity would be able to execute the attack stated above.
+
+# Appendix
+## Unauthenticated LDAP enumeration
+**Rating**: 
+* Medium
+**Description:**
+* An unauthenticated user can query LDAP to retrieve information about the domain including AD groups and users.
+**Impact:**
+* Enumeration of valid users and emails, which can result in spear-phishing attacks
+**Remediation**:
+* Enable LDAP signing [link](https://learn.microsoft.com/en-us/troubleshoot/windows-server/identity/enable-ldap-signing-in-windows-server?source=recommendations)
+## Password attributes field with AD object
+## User Access control
+## Weak/ Static Key encryption
+## Password reuse
