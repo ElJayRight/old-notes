@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.93 scan initiated Sat Nov 12 08:16:28 2022 as: nmap -sC -sV -oA nmap/multimaster 10.10.10.179 -->
+<nmaprun scanner="nmap" args="nmap -sC -sV -oA nmap/multimaster 10.10.10.179" start="1668258988" startstr="Sat Nov 12 08:16:28 2022" version="7.93" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="1000" services="1,3-4,6-7,9,13,17,19-26,30,32-33,37,42-43,49,53,70,79-85,88-90,99-100,106,109-111,113,119,125,135,139,143-144,146,161,163,179,199,211-212,222,254-256,259,264,280,301,306,311,340,366,389,406-407,416-417,425,427,443-445,458,464-465,481,497,500,512-515,524,541,543-545,548,554-555,563,587,593,616-617,625,631,636,646,648,666-668,683,687,691,700,705,711,714,720,722,726,749,765,777,783,787,800-801,808,843,873,880,888,898,900-903,911-912,981,987,990,992-993,995,999-1002,1007,1009-1011,1021-1100,1102,1104-1108,1110-1114,1117,1119,1121-1124,1126,1130-1132,1137-1138,1141,1145,1147-1149,1151-1152,1154,1163-1166,1169,1174-1175,1183,1185-1187,1192,1198-1199,1201,1213,1216-1218,1233-1234,1236,1244,1247-1248,1259,1271-1272,1277,1287,1296,1300-1301,1309-1311,1322,1328,1334,1352,1417,1433-1434,1443,1455,1461,1494,1500-1501,1503,1521,1524,1533,1556,1580,1583,1594,1600,1641,1658,1666,1687-1688,1700,1717-1721,1723,1755,1761,1782-1783,1801,1805,1812,1839-1840,1862-1864,1875,1900,1914,1935,1947,1971-1972,1974,1984,1998-2010,2013,2020-2022,2030,2033-2035,2038,2040-2043,2045-2049,2065,2068,2099-2100,2103,2105-2107,2111,2119,2121,2126,2135,2144,2160-2161,2170,2179,2190-2191,2196,2200,2222,2251,2260,2288,2301,2323,2366,2381-2383,2393-2394,2399,2401,2492,2500,2522,2525,2557,2601-2602,2604-2605,2607-2608,2638,2701-2702,2710,2717-2718,2725,2800,2809,2811,2869,2875,2909-2910,2920,2967-2968,2998,3000-3001,3003,3005-3007,3011,3013,3017,3030-3031,3052,3071,3077,3128,3168,3211,3221,3260-3261,3268-3269,3283,3300-3301,3306,3322-3325,3333,3351,3367,3369-3372,3389-3390,3404,3476,3493,3517,3527,3546,3551,3580,3659,3689-3690,3703,3737,3766,3784,3800-3801,3809,3814,3826-3828,3851,3869,3871,3878,3880,3889,3905,3914,3918,3920,3945,3971,3986,3995,3998,4000-4006,4045,4111,4125-4126,4129,4224,4242,4279,4321,4343,4443-4446,4449,4550,4567,4662,4848,4899-4900,4998,5000-5004,5009,5030,5033,5050-5051,5054,5060-5061,5080,5087,5100-5102,5120,5190,5200,5214,5221-5222,5225-5226,5269,5280,5298,5357,5405,5414,5431-5432,5440,5500,5510,5544,5550,5555,5560,5566,5631,5633,5666,5678-5679,5718,5730,5800-5802,5810-5811,5815,5822,5825,5850,5859,5862,5877,5900-5904,5906-5907,5910-5911,5915,5922,5925,5950,5952,5959-5963,5987-5989,5998-6007,6009,6025,6059,6100-6101,6106,6112,6123,6129,6156,6346,6389,6502,6510,6543,6547,6565-6567,6580,6646,6666-6669,6689,6692,6699,6779,6788-6789,6792,6839,6881,6901,6969,7000-7002,7004,7007,7019,7025,7070,7100,7103,7106,7200-7201,7402,7435,7443,7496,7512,7625,7627,7676,7741,7777-7778,7800,7911,7920-7921,7937-7938,7999-8002,8007-8011,8021-8022,8031,8042,8045,8080-8090,8093,8099-8100,8180-8181,8192-8194,8200,8222,8254,8290-8292,8300,8333,8383,8400,8402,8443,8500,8600,8649,8651-8652,8654,8701,8800,8873,8888,8899,8994,9000-9003,9009-9011,9040,9050,9071,9080-9081,9090-9091,9099-9103,9110-9111,9200,9207,9220,9290,9415,9418,9485,9500,9502-9503,9535,9575,9593-9595,9618,9666,9876-9878,9898,9900,9917,9929,9943-9944,9968,9998-10004,10009-10010,10012,10024-10025,10082,10180,10215,10243,10566,10616-10617,10621,10626,10628-10629,10778,11110-11111,11967,12000,12174,12265,12345,13456,13722,13782-13783,14000,14238,14441-14442,15000,15002-15004,15660,15742,16000-16001,16012,16016,16018,16080,16113,16992-16993,17877,17988,18040,18101,18988,19101,19283,19315,19350,19780,19801,19842,20000,20005,20031,20221-20222,20828,21571,22939,23502,24444,24800,25734-25735,26214,27000,27352-27353,27355-27356,27715,28201,30000,30718,30951,31038,31337,32768-32785,33354,33899,34571-34573,35500,38292,40193,40911,41511,42510,44176,44442-44443,44501,45100,48080,49152-49161,49163,49165,49167,49175-49176,49400,49999-50003,50006,50300,50389,50500,50636,50800,51103,51493,52673,52822,52848,52869,54045,54328,55055-55056,55555,55600,56737-56738,57294,57797,58080,60020,60443,61532,61900,62078,63331,64623,64680,65000,65129,65389"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.10.10.179" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1668258989" endtime="1668259055"><status state="up" reason="echo-reply" reason_ttl="127"/>
+<address addr="10.10.10.179" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="987">
+<extrareasons reason="no-response" count="987" proto="tcp" ports="1,3-4,6-7,9,13,17,19-26,30,32-33,37,42-43,49,70,79,81-85,89-90,99-100,106,109-111,113,119,125,143-144,146,161,163,179,199,211-212,222,254-256,259,264,280,301,306,311,340,366,406-407,416-417,425,427,443-444,458,465,481,497,500,512-515,524,541,543-545,548,554-555,563,587,616-617,625,631,646,648,666-668,683,687,691,700,705,711,714,720,722,726,749,765,777,783,787,800-801,808,843,873,880,888,898,900-903,911-912,981,987,990,992-993,995,999-1002,1007,1009-1011,1021-1100,1102,1104-1108,1110-1114,1117,1119,1121-1124,1126,1130-1132,1137-1138,1141,1145,1147-1149,1151-1152,1154,1163-1166,1169,1174-1175,1183,1185-1187,1192,1198-1199,1201,1213,1216-1218,1233-1234,1236,1244,1247-1248,1259,1271-1272,1277,1287,1296,1300-1301,1309-1311,1322,1328,1334,1352,1417,1433-1434,1443,1455,1461,1494,1500-1501,1503,1521,1524,1533,1556,1580,1583,1594,1600,1641,1658,1666,1687-1688,1700,1717-1721,1723,1755,1761,1782-1783,1801,1805,1812,1839-1840,1862-1864,1875,1900,1914,1935,1947,1971-1972,1974,1984,1998-2010,2013,2020-2022,2030,2033-2035,2038,2040-2043,2045-2049,2065,2068,2099-2100,2103,2105-2107,2111,2119,2121,2126,2135,2144,2160-2161,2170,2179,2190-2191,2196,2200,2222,2251,2260,2288,2301,2323,2366,2381-2383,2393-2394,2399,2401,2492,2500,2522,2525,2557,2601-2602,2604-2605,2607-2608,2638,2701-2702,2710,2717-2718,2725,2800,2809,2811,2869,2875,2909-2910,2920,2967-2968,2998,3000-3001,3003,3005-3007,3011,3013,3017,3030-3031,3052,3071,3077,3128,3168,3211,3221,3260-3261,3283,3300-3301,3306,3322-3325,3333,3351,3367,3369-3372,3390,3404,3476,3493,3517,3527,3546,3551,3580,3659,3689-3690,3703,3737,3766,3784,3800-3801,3809,3814,3826-3828,3851,3869,3871,3878,3880,3889,3905,3914,3918,3920,3945,3971,3986,3995,3998,4000-4006,4045,4111,4125-4126,4129,4224,4242,4279,4321,4343,4443-4446,4449,4550,4567,4662,4848,4899-4900,4998,5000-5004,5009,5030,5033,5050-5051,5054,5060-5061,5080,5087,5100-5102,5120,5190,5200,5214,5221-5222,5225-5226,5269,5280,5298,5357,5405,5414,5431-5432,5440,5500,5510,5544,5550,5555,5560,5566,5631,5633,5666,5678-5679,5718,5730,5800-5802,5810-5811,5815,5822,5825,5850,5859,5862,5877,5900-5904,5906-5907,5910-5911,5915,5922,5925,5950,5952,5959-5963,5987-5989,5998-6007,6009,6025,6059,6100-6101,6106,6112,6123,6129,6156,6346,6389,6502,6510,6543,6547,6565-6567,6580,6646,6666-6669,6689,6692,6699,6779,6788-6789,6792,6839,6881,6901,6969,7000-7002,7004,7007,7019,7025,7070,7100,7103,7106,7200-7201,7402,7435,7443,7496,7512,7625,7627,7676,7741,7777-7778,7800,7911,7920-7921,7937-7938,7999-8002,8007-8011,8021-8022,8031,8042,8045,8080-8090,8093,8099-8100,8180-8181,8192-8194,8200,8222,8254,8290-8292,8300,8333,8383,8400,8402,8443,8500,8600,8649,8651-8652,8654,8701,8800,8873,8888,8899,8994,9000-9003,9009-9011,9040,9050,9071,9080-9081,9090-9091,9099-9103,9110-9111,9200,9207,9220,9290,9415,9418,9485,9500,9502-9503,9535,9575,9593-9595,9618,9666,9876-9878,9898,9900,9917,9929,9943-9944,9968,9998-10004,10009-10010,10012,10024-10025,10082,10180,10215,10243,10566,10616-10617,10621,10626,10628-10629,10778,11110-11111,11967,12000,12174,12265,12345,13456,13722,13782-13783,14000,14238,14441-14442,15000,15002-15004,15660,15742,16000-16001,16012,16016,16018,16080,16113,16992-16993,17877,17988,18040,18101,18988,19101,19283,19315,19350,19780,19801,19842,20000,20005,20031,20221-20222,20828,21571,22939,23502,24444,24800,25734-25735,26214,27000,27352-27353,27355-27356,27715,28201,30000,30718,30951,31038,31337,32768-32785,33354,33899,34571-34573,35500,38292,40193,40911,41511,42510,44176,44442-44443,44501,45100,48080,49152-49161,49163,49165,49167,49175-49176,49400,49999-50003,50006,50300,50389,50500,50636,50800,51103,51493,52673,52822,52848,52869,54045,54328,55055-55056,55555,55600,56737-56738,57294,57797,58080,60020,60443,61532,61900,62078,63331,64623,64680,65000,65129,65389"/>
+</extraports>
+<port protocol="tcp" portid="53"><state state="open" reason="syn-ack" reason_ttl="127"/><service name="domain" product="Simple DNS Plus" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:jh_software:simple_dns_plus</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="127"/><service name="http" product="Microsoft IIS httpd" version="10.0" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:internet_information_services:10.0</cpe><cpe>cpe:/o:microsoft:windows</cpe></service><script id="http-title" output="403 - Forbidden: Access is denied."><elem key="title">403 - Forbidden: Access is denied.</elem>
+</script><script id="http-server-header" output="Microsoft-IIS/10.0"><elem>Microsoft-IIS/10.0</elem>
+</script></port>
+<port protocol="tcp" portid="88"><state state="open" reason="syn-ack" reason_ttl="127"/><service name="kerberos-sec" product="Microsoft Windows Kerberos" extrainfo="server time: 2022-11-12 13:23:53Z" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:kerberos</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="135"><state state="open" reason="syn-ack" reason_ttl="127"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="127"/><service name="netbios-ssn" product="Microsoft Windows netbios-ssn" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="389"><state state="open" reason="syn-ack" reason_ttl="127"/><service name="ldap" product="Microsoft Windows Active Directory LDAP" extrainfo="Domain: MEGACORP.LOCAL, Site: Default-First-Site-Name" hostname="MULTIMASTER" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="127"/><service name="microsoft-ds" product="Windows Server 2016 Standard 14393 microsoft-ds" extrainfo="workgroup: MEGACORP" hostname="MULTIMASTER" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="464"><state state="open" reason="syn-ack" reason_ttl="127"/><service name="kpasswd5" method="table" conf="3"/></port>
+<port protocol="tcp" portid="593"><state state="open" reason="syn-ack" reason_ttl="127"/><service name="ncacn_http" product="Microsoft Windows RPC over HTTP" version="1.0" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="636"><state state="open" reason="syn-ack" reason_ttl="127"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="3268"><state state="open" reason="syn-ack" reason_ttl="127"/><service name="ldap" product="Microsoft Windows Active Directory LDAP" extrainfo="Domain: MEGACORP.LOCAL, Site: Default-First-Site-Name" hostname="MULTIMASTER" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="3269"><state state="open" reason="syn-ack" reason_ttl="127"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="3389"><state state="open" reason="syn-ack" reason_ttl="127"/><service name="ms-wbt-server" product="Microsoft Terminal Services" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service><script id="ssl-date" output="2022-11-12T13:24:34+00:00; +6m59s from scanner time."><elem key="date">2022-11-12T13:24:34+00:00</elem>
+<elem key="delta">419.0</elem>
+</script><script id="ssl-cert" output="Subject: commonName=MULTIMASTER.MEGACORP.LOCAL&#xa;Not valid before: 2022-11-11T13:21:35&#xa;Not valid after:  2023-05-13T13:21:35"><table key="subject">
+<elem key="commonName">MULTIMASTER.MEGACORP.LOCAL</elem>
+</table>
+<table key="issuer">
+<elem key="commonName">MULTIMASTER.MEGACORP.LOCAL</elem>
+</table>
+<table key="pubkey">
+<elem key="type">rsa</elem>
+<elem key="bits">2048</elem>
+<elem key="modulus">D5A83FDCDDB4CDAEF0247592221B36A98ECF48BEC89FBEF0671FC573A604BEB5CA72C471FB90706F9E3E0EA0B2D883BB5F6049E61812578AD87E6CBC38EF0D10BAE0BD31F37E8CD0552D596371338E2B754440D120C58F657ED35910F597C89172229F302BD3B729D22D24C862DA0330D6420A0601A8CFD45292F08815AE563639E0A67542969155D4C46C1052492B93A5B5F99B9BAF4A0334F7AC54DFD5090F82D68C615D73245CFD084A2F8F3EC0035E3A9F628DBDC30ECCB8F1A2E44B46D42784769038EF05C9BC942998DF5E8764CB72C1CB2424A9A3806EA844C32EC5249290361489D30D44B494D39B849E2B72F9A034AF939DE5B5E29915AAB45AD9EB</elem>
+<elem key="exponent">65537</elem>
+</table>
+<table key="extensions">
+<table>
+<elem key="name">X509v3 Extended Key Usage</elem>
+<elem key="value">TLS Web Server Authentication</elem>
+</table>
+<table>
+<elem key="name">X509v3 Key Usage</elem>
+<elem key="value">Key Encipherment, Data Encipherment</elem>
+</table>
+</table>
+<elem key="sig_algo">sha256WithRSAEncryption</elem>
+<table key="validity">
+<elem key="notBefore">2022-11-11T13:21:35</elem>
+<elem key="notAfter">2023-05-13T13:21:35</elem>
+</table>
+<elem key="md5">269edf84726d0dc5076158ee4a8f88b7</elem>
+<elem key="sha1">caaff63de7832a8e724d208c476a9fbe5a3da08a</elem>
+<elem key="pem">-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIIC+DCCAeCgAwIBAgIQOk1c/Ty/dZlI+lvjKps+mTANBgkqhkiG9w0BAQsFADAl&#xa;MSMwIQYDVQQDExpNVUxUSU1BU1RFUi5NRUdBQ09SUC5MT0NBTDAeFw0yMjExMTEx&#xa;MzIxMzVaFw0yMzA1MTMxMzIxMzVaMCUxIzAhBgNVBAMTGk1VTFRJTUFTVEVSLk1F&#xa;R0FDT1JQLkxPQ0FMMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1ag/&#xa;3N20za7wJHWSIhs2qY7PSL7In77wZx/Fc6YEvrXKcsRx+5Bwb54+DqCy2IO7X2BJ&#xa;5hgSV4rYfmy8OO8NELrgvTHzfozQVS1ZY3Ezjit1REDRIMWPZX7TWRD1l8iRciKf&#xa;MCvTtynSLSTIYtoDMNZCCgYBqM/UUpLwiBWuVjY54KZ1QpaRVdTEbBBSSSuTpbX5&#xa;m5uvSgM096xU39UJD4LWjGFdcyRc/QhKL48+wANeOp9ijb3DDsy48aLkS0bUJ4R2&#xa;kDjvBcm8lCmY316HZMtywcskJKmjgG6oRMMuxSSSkDYUidMNRLSU05uEnity+aA0&#xa;r5Od5bXimRWqtFrZ6wIDAQABoyQwIjATBgNVHSUEDDAKBggrBgEFBQcDATALBgNV&#xa;HQ8EBAMCBDAwDQYJKoZIhvcNAQELBQADggEBAJgkAZJNwUQw35PdYnm/kNjry5hs&#xa;tm9KOkAL6ywbyMA922uPPROqYapS+2cTd5W8d12p2/DghaKaJXpgZ8ly2+dX66wx&#xa;vxpOXT6BUdV94PphbLiSflLXPP+8/g2kV3uC6Z2/LtwZV+Q0CFFDUl7mZfwZx8Bm&#xa;vKrUo+B1EXizKgFVhDTeyQFIsFS0UTCNMo3mxuIEk+3pSXUyjk2vYi30NlBUj/kv&#xa;xXDzURY2PbqhAckQAUhaveDta62dRgYYqWUctrA59HhCSVrWT/MfAOqrM7e5tf59&#xa;97R8LJn3PoXeGB7WvgvUsxFoHj2yL91vzSPaQC89kFU6Q2Suxcu7veHeHxA=&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;</elem>
+</script><script id="rdp-ntlm-info" output="&#xa;  Target_Name: MEGACORP&#xa;  NetBIOS_Domain_Name: MEGACORP&#xa;  NetBIOS_Computer_Name: MULTIMASTER&#xa;  DNS_Domain_Name: MEGACORP.LOCAL&#xa;  DNS_Computer_Name: MULTIMASTER.MEGACORP.LOCAL&#xa;  DNS_Tree_Name: MEGACORP.LOCAL&#xa;  Product_Version: 10.0.14393&#xa;  System_Time: 2022-11-12T13:23:54+00:00"><elem key="Target_Name">MEGACORP</elem>
+<elem key="NetBIOS_Domain_Name">MEGACORP</elem>
+<elem key="NetBIOS_Computer_Name">MULTIMASTER</elem>
+<elem key="DNS_Domain_Name">MEGACORP.LOCAL</elem>
+<elem key="DNS_Computer_Name">MULTIMASTER.MEGACORP.LOCAL</elem>
+<elem key="DNS_Tree_Name">MEGACORP.LOCAL</elem>
+<elem key="Product_Version">10.0.14393</elem>
+<elem key="System_Time">2022-11-12T13:23:54+00:00</elem>
+</script></port>
+</ports>
+<hostscript><script id="smb2-time" output="&#xa;  date: 2022-11-12T13:23:55&#xa;  start_date: 2022-11-12T13:21:42"><elem key="date">2022-11-12T13:23:55</elem>
+<elem key="start_date">2022-11-12T13:21:42</elem>
+</script><script id="clock-skew" output="mean: 1h43m00s, deviation: 3h34m41s, median: 6m58s"><elem key="mean">6180</elem>
+<elem key="stddev">12881</elem>
+<elem key="median">418</elem>
+<elem key="count">5</elem>
+</script><script id="smb-security-mode" output="&#xa;  account_used: guest&#xa;  authentication_level: user&#xa;  challenge_response: supported&#xa;  message_signing: required"><elem key="account_used">guest</elem>
+<elem key="authentication_level">user</elem>
+<elem key="challenge_response">supported</elem>
+<elem key="message_signing">required</elem>
+</script><script id="smb2-security-mode" output="&#xa;  311: &#xa;    Message signing enabled and required"><table key="311">
+<elem>Message signing enabled and required</elem>
+</table>
+</script><script id="smb-os-discovery" output="&#xa;  OS: Windows Server 2016 Standard 14393 (Windows Server 2016 Standard 6.3)&#xa;  Computer name: MULTIMASTER&#xa;  NetBIOS computer name: MULTIMASTER\x00&#xa;  Domain name: MEGACORP.LOCAL&#xa;  Forest name: MEGACORP.LOCAL&#xa;  FQDN: MULTIMASTER.MEGACORP.LOCAL&#xa;  System time: 2022-11-12T05:23:59-08:00&#xa;"><elem key="os">Windows Server 2016 Standard 14393</elem>
+<elem key="lanmanager">Windows Server 2016 Standard 6.3</elem>
+<elem key="server">MULTIMASTER\x00</elem>
+<elem key="date">2022-11-12T05:23:59-08:00</elem>
+<elem key="fqdn">MULTIMASTER.MEGACORP.LOCAL</elem>
+<elem key="domain_dns">MEGACORP.LOCAL</elem>
+<elem key="forest_dns">MEGACORP.LOCAL</elem>
+<elem key="workgroup">MEGACORP\x00</elem>
+</script></hostscript><times srtt="50626" rttvar="50035" to="250766"/>
+</host>
+<runstats><finished time="1668259055" timestr="Sat Nov 12 08:17:35 2022" summary="Nmap done at Sat Nov 12 08:17:35 2022; 1 IP address (1 host up) scanned in 67.34 seconds" elapsed="67.34" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

@@ -195,12 +195,16 @@ Overall there is a **high** risk identified from this report. There is a direct 
 ## Unauthenticated LDAP enumeration
 **Rating**: 
 * Medium
+
 **Description:**
 * An unauthenticated user can query LDAP to retrieve information about the domain including AD groups and users.
+
 **Impact:**
 * Enumeration of valid users and emails, which can result in spear-phishing attacks
+
 **Remediation**:
 * Enable LDAP signing [link](https://learn.microsoft.com/en-us/troubleshoot/windows-server/identity/enable-ldap-signing-in-windows-server?source=recommendations)
+
 ## Password attributes field with AD object
 ## User Access control
 ## Weak/ Static Key encryption
