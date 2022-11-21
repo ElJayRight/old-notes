@@ -10,7 +10,7 @@
 * **Conclusion**
 	* Recommendation
 	* Risk Rating
-* **Appendix: Vulnerability Detail and Mitigation**
+* **Detailed Vulnerabilities**
 	* Unauthenticated LDAP enumeration
 	* Password attributes field in AD Object
 	* User Access control
@@ -27,7 +27,7 @@ Enumeration of the SMB shares with the new account revealed a .NET executable th
 
 # Attack Path
 ## LDAP discovery and enumeration
-Scanned the IP with nmap and discovered 13 open TCP ports. The automated scripts revealed the hostname of cascade.local.
+Scanned the IP with nmap and discovered 13 open TCP ports. The automated scripts revealed the host name of cascade.local.
 
 Time ran: Fri Oct 28 23:31:06 2022
 ```bash
@@ -191,21 +191,27 @@ We then proceeded to login as the administrator account with winrm, which result
 ## Risk Rating
 Overall there is a **high** risk identified from this report. There is a direct path for an external attacker to have full system compromise. There is very realistic chance that a malicious entity would be able to execute the attack stated above.
 
-# Appendix
+# Detailed Vulnerabilities
 ## Unauthenticated LDAP enumeration
-**Rating**: 
-* Medium
+### Risk assessment
+This vulnerability does not require any authentication and can be used to gain confidential data from the client. This includes internal company emails, usernames and full names.
+An attack using this vulnerability can lead to an impact on the clients reputation as a large amount of personal information was leaked. This would also impact the growth of the client's company.
 
-**Description:**
-* An unauthenticated user can query LDAP to retrieve information about the domain including AD groups and users.
 
-**Impact:**
-* Enumeration of valid users and emails, which can result in spear-phishing attacks
+## Password attributes fields within an AD object
+### Risk assessment
+While this vulnerability does require authentication it will lead to more account compromises which leads to a larger attack surface. The result of new account compromises will lead to further confidential data being exposed. An attack using this vulnerability will increase the cost and time after the attack. As all account passwords will have to reset. 
 
-**Remediation**:
-* Enable LDAP signing [link](https://learn.microsoft.com/en-us/troubleshoot/windows-server/identity/enable-ldap-signing-in-windows-server?source=recommendations)
 
-## Password attributes field with AD object
 ## User Access control
-## Weak/ Static Key encryption
-## Password reuse
+### Risk assessment
+This vulnerability does require authentication but leads to confidential documents being exposed to any user within the client's company. The impact would be that internal documents could be leaked by a malicious insider. Depending on the contents of the file this could lead to loss of profit for the client's company.
+
+## Weak/ Static Key encryption in third party applications
+### Risk assessment
+This vulnerability does need authentication and leads to encrypted documents being decrypted by anyone able to view the encryption program. This has a critical impact to the client as all encrypted documents can be decrypted by anyone within the company. An attack using this vulnerability will have a drastic impact on the client's company's image and growth. It will also have to be disclosed to the Privacy Commissioner, resulting in a fine. 
+
+
+## Password reuse of domain admins
+### Risk assessment
+This vulnerability can lead to compromise of domain admin accounts, but does need authentication. The password has been reused from a temporary account. The effect to the client's company is critical, by having a domain admin account the attack can do anything. Such as change where everyone's pay goes or lock everyone out of the system. This would has catastrophic impact on the client's company as they could potentially all income and have down time.
