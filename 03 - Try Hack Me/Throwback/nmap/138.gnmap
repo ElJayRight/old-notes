@@ -1,0 +1,4 @@
+# Nmap 7.93 scan initiated Fri Nov 18 00:26:37 2022 as: nmap -sC -sV -oA nmap/138 10.200.74.138
+Host: 10.200.74.138 ()	Status: Up
+Host: 10.200.74.138 ()	Ports: 22/open/tcp//ssh//OpenSSH 7.5 (protocol 2.0)/, 53/open/tcp//domain//(generic dns response: REFUSED)/, 80/open/tcp//http//nginx/, 443/open/tcp//ssl|http//nginx/	Ignored State: filtered (996)
+# Nmap done at Fri Nov 18 00:29:13 2022 -- 1 IP address (1 host up) scanned in 155.89 seconds

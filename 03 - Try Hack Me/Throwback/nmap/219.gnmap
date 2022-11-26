@@ -1,0 +1,4 @@
+# Nmap 7.93 scan initiated Fri Nov 18 00:27:16 2022 as: nmap -sC -sV -oA nmap/219 10.200.74.219
+Host: 10.200.74.219 ()	Status: Up
+Host: 10.200.74.219 ()	Ports: 22/open/tcp//ssh//OpenSSH for_Windows_7.7 (protocol 2.0)/, 80/open/tcp//http//Microsoft IIS httpd 10.0/, 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 445/open/tcp//microsoft-ds?///, 3389/open/tcp//ms-wbt-server//Microsoft Terminal Services/, 5357/open/tcp//http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/	Ignored State: filtered (993)
+# Nmap done at Fri Nov 18 00:28:33 2022 -- 1 IP address (1 host up) scanned in 77.33 seconds

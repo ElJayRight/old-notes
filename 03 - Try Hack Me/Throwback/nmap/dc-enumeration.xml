@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.93 scan initiated Fri Nov 18 08:14:05 2022 as: nmap -sn -oA nmap/dc-enumeration 10.200.74.0/24 -->
+<nmaprun scanner="nmap" args="nmap -sn -oA nmap/dc-enumeration 10.200.74.0/24" start="1668777245" startstr="Fri Nov 18 08:14:05 2022" version="7.93" xmloutputversion="1.05">

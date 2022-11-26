@@ -10,12 +10,12 @@ STRING did this work?
 ```
 This proceeded to open a notepad file and type "did this work?", which is exactly what it was meant to do.
 ## .\/.An aside into how Rubber Duckies work
-The TL;DR is that they convice your computer that they are a keyboard and then proceed to send key strokes from the .dd file.
+The TL;DR is that they convince your computer that they are a keyboard and then proceed to send key strokes from the .dd file.
 
 The longer version
 Thats all I know about them. 
 
-Back to the more intresting thingR
+Back to the more interesting things
 
 ## Now what?
 It would be cool to make it reach out to a server and spawn a reverse shell. This would be easy if the host is linux but for me at the time all my vm's were :( which means I had to figure out how to write it for windows.
@@ -106,7 +106,9 @@ New-Service: Service ' (TestService)' cannot be created due to the following err
 ;(
 Well I can't use this for the payload but I wanna figure out how these work.
 ``` powershell
-Status   Name               DisplayName                                                                                 ------   ----               -----------                                                                                 Stopped  TestService        TestService  
+Status   Name               DisplayName
+------   ----               -----------
+Stopped  TestService        TestService  
 ```
 Why is it stopped? How do i start it? How do i remove it?
 Oh no how do i get rid of it.
@@ -193,7 +195,7 @@ Could I write this to a file before hand and then execute it from the rubber duc
 
 This should be the same as the first batch script but instead writes file to start directory.
 
-For some reason it doesn't seem like you can pass Out-File into a script form a batch script :( 
+For some reason it doesn't seem like you can pass Out-File into a script from a batch script :( 
 
 I wrote a quick vbs script that writes the file.
 ```vb

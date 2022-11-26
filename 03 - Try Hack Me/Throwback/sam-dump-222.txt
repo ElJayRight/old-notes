@@ -1,0 +1,106 @@
+Domain : THROWBACK-WS01
+SysKey : 454d717aef0656b084170059533e662d
+Local SID : S-1-5-21-1793132013-1088546685-2907737318
+
+SAMKey : 5a104836403aedc21d85c7c07da7fd11
+
+RID  : 000001f4 (500)
+User : Administrator
+
+RID  : 000001f5 (501)
+User : Guest
+
+RID  : 000001f7 (503)
+User : DefaultAccount
+
+RID  : 000001f8 (504)
+User : WDAGUtilityAccount
+  Hash NTLM: 0a06b1381599f2c8c8bfdbee39edbe1c
+
+Supplemental Credentials:
+* Primary:NTLM-Strong-NTOWF *
+    Random Value : 7566f50176f41a277c885276e2113c34
+
+* Primary:Kerberos-Newer-Keys *
+    Default Salt : WDAGUtilityAccount
+    Default Iterations : 4096
+    Credentials
+      aes256_hmac       (4096) : e4f94362a75034973eb691094f45453c2e3c47feda00c0ed3e307c363ae1e170
+      aes128_hmac       (4096) : b5633cb12ce0ef5d12475d6ddad779a6
+      des_cbc_md5       (4096) : 40d35e38e3ab4507
+
+* Packages *
+    NTLM-Strong-NTOWF
+
+* Primary:Kerberos *
+    Default Salt : WDAGUtilityAccount
+    Credentials
+      des_cbc_md5       : 40d35e38e3ab4507
+
+
+RID  : 000003e9 (1001)
+User : BlaireJ
+  Hash NTLM: c374ecb7c2ccac1df3a82bce4f80bb5b
+    lm  - 0: 7038b4815533900af915d0eb2b24826f
+    ntlm- 0: c374ecb7c2ccac1df3a82bce4f80bb5b
+    ntlm- 1: 4af9aaf3d89a8ece4fb85583f1ef325d
+
+Supplemental Credentials:
+* Primary:NTLM-Strong-NTOWF *
+    Random Value : e24f73c378d3f575358e06b41e2f229f
+
+* Primary:Kerberos-Newer-Keys *
+    Default Salt : THROWBACK-WS01.THROWBACK.LOCALBlaireJ
+    Default Iterations : 4096
+    Credentials
+      aes256_hmac       (4096) : fb3eef67b3d00aadf95bec72fdd00318c4e2995c84927ac9c69dc34d08ce5ef0
+      aes128_hmac       (4096) : c60ab4c08bf9ebfb4531ba4f78babd63
+      des_cbc_md5       (4096) : 80bfea26cb49c254
+    OldCredentials
+      aes256_hmac       (4096) : ebbfe89fd7e3a97c9d72161ddfe7ec5adb00b669e8143a90884ea574426af6db
+      aes128_hmac       (4096) : 758e1d6d5469c2c624a1347607393847
+      des_cbc_md5       (4096) : 763bda0bdc6bcebc
+    OlderCredentials
+      aes256_hmac       (4096) : ebbfe89fd7e3a97c9d72161ddfe7ec5adb00b669e8143a90884ea574426af6db
+      aes128_hmac       (4096) : 758e1d6d5469c2c624a1347607393847
+      des_cbc_md5       (4096) : 763bda0bdc6bcebc
+
+* Packages *
+    NTLM-Strong-NTOWF
+
+* Primary:Kerberos *
+    Default Salt : THROWBACK-WS01.THROWBACK.LOCALBlaireJ
+    Credentials
+      des_cbc_md5       : 80bfea26cb49c254
+    OldCredentials
+      des_cbc_md5       : 763bda0bdc6bcebc
+
+
+RID  : 000003ea (1002)
+User : sshd
+  Hash NTLM: 50527b4bfe81a64edf00e6b05c26c195
+    lm  - 0: dbe526f575a51be219dcfa9fae0b17f7
+    ntlm- 0: 50527b4bfe81a64edf00e6b05c26c195
+
+Supplemental Credentials:
+* Primary:NTLM-Strong-NTOWF *
+    Random Value : 4d648764c48d6927474bb1c30177842b
+
+* Primary:Kerberos-Newer-Keys *
+    Default Salt : TB-DEV-WS01.THROWBACK.LOCALsshd
+    Default Iterations : 4096
+    Credentials
+      aes256_hmac       (4096) : 8fab88285e426cc20c5918328d7dfcd5a16144c4afe9547b8b8c6dd094d2bf6a
+      aes128_hmac       (4096) : 40cebfdcc297dd860048a1674c220f57
+      des_cbc_md5       (4096) : 700df2fd8f4f2370
+
+* Packages *
+    NTLM-Strong-NTOWF
+
+* Primary:Kerberos *
+    Default Salt : TB-DEV-WS01.THROWBACK.LOCALsshd
+    Credentials
+      des_cbc_md5       : 700df2fd8f4f2370
+
+
+

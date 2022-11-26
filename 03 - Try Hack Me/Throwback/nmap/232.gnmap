@@ -1,0 +1,4 @@
+# Nmap 7.93 scan initiated Fri Nov 18 00:27:50 2022 as: nmap -sC -sV -oA nmap/232 10.200.74.232
+Host: 10.200.74.232 ()	Status: Up
+Host: 10.200.74.232 ()	Ports: 22/open/tcp//ssh//OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.29 ((Ubuntu))/, 143/open/tcp//imap//Dovecot imapd (Ubuntu)/, 993/open/tcp//ssl|imap//Dovecot imapd (Ubuntu)/	Ignored State: closed (996)
+# Nmap done at Fri Nov 18 00:28:55 2022 -- 1 IP address (1 host up) scanned in 65.34 seconds
