@@ -249,18 +249,18 @@ other team members with questions
 Summers Winters,
 CEO of Throwback Hacks Security
 ```
-
+Adding both hosts to /etc/hosts
 # Enumeration 118
 There are 2 more boxes 243 and 79
 Further enumeration shows that 79 is a domain controller, but mercerh can't login :(
 
 # OSINT
-Now that we have a few users we can check on github for potential hard coded credentials
-Within RIkkaFoxx's github there are hard coded creds for DaviesJ:Management2018
-
 Found a few more users on linkedin
 Jon Stewart
 Riskam Hardita
+
+Now that we have a few users we can check on github for potential hard coded credentials
+Within RIkkaFoxx's github there are hard coded creds for DaviesJ:Management2018
 
 # Foothold on 243
 These creds let us login to 243.
@@ -333,3 +333,35 @@ with open("new-emails.txt",'r') as file, open("new-email-names.txt",'w') as out:
 		out.write("SEC-"+i)
 	out.close()
 ```
+
+# breachgtfo
+Fuzzing to see if any users have a breach. The default line count is 219
+```bash
+wfuzz -u http://breachgtfo.local/search.php?search=FUZZ -w new-email-names.txt --hl 219
+```
+
+Got a hit for SEC-JStewart@TBHSecurity.com
+JStewart:aqAwM53cW8AgRbfr
+
+# Corp mail server
+Login with JStewart's email and password.
+There is an email containing creds. :)
+TBSEC_GUEST:WelcomeTBSEC1!
+
+# 79
+Trying to ssh into the machine wont work (again) so another rdp session :)
+Then sending out a rev shell gives us a foothold :)
+
+## Kerberoast
+Impacket time
+Have to add TBSECURITY.local to host file cause kerberos.
+```bash
+proxychains python3 GetUserSPNs.py -request -dc-ip 10.200.74.79 TBSECURITY.local/TBSEC_GUEST
+```
+This works and gives a hash for the TBService account.
+Cracking the hash gives a password of securityadmin284650. This is an admin account on the final domain controller.
+
+**PWNED**
+
+# Fin
+The entire network has now been pwned :)
