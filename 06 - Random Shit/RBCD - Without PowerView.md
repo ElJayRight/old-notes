@@ -60,7 +60,7 @@ $s.findall()
 $vicmac = [adsi]"LDAP://CN=MUSPELHEIM,CN=Computers,DC=ninerealms,DC=local"
 ```
 
-Added the object with put.
+Added the attribute with put.
 ```powershell
 $vicmac.put("msds-allowedtoactonbehalfofotheridentity",$obj.objectsid.value)
 ```
