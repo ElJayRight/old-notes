@@ -1,4 +1,4 @@
-## Python
+# Python
 ```python
 for line in open('input_6','r'):
     pass

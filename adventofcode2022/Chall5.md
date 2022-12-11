@@ -1,4 +1,4 @@
-## Python
+# Python
 ```python
 sum = 0
 for line in open("input_3",'r'):

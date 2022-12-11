@@ -1,4 +1,4 @@
-## Python
+# Python
 ```python
 counter = 0
 sum = 0
