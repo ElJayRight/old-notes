@@ -5,7 +5,6 @@ for line in open('input_5','r'):
         header =-1
         for i in range(len(data)):
             data[i] = ''.join(data[i][:-1][::-1]).replace(' ','')
-        print(data)
     if header==0:
         d = line.strip().replace(']',' ').replace('[',' ')[1:]
         for i in range(0,33,4):
