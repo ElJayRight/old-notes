@@ -58,4 +58,15 @@
 	* Forensics
 		* [Information](01%20-%20PicoGym/04%20-%20Forensics/Information.md)
 * Advent of Code 2022
-	* 
+	* [Challenge 1](adventofcode2022/Chall1.md)
+	* [Challenge 2](adventofcode2022/Chall2.md)
+	* [Challenge 3](adventofcode2022/Chall3.md)
+	* [Challenge 4](adventofcode2022/Chall4.md)
+	* [Challenge 5](adventofcode2022/Chall5.md)
+	* [Challenge 6](adventofcode2022/Chall6.md)
+	* [Challenge 7](adventofcode2022/Chall7.md)
+	* [Challenge 8](adventofcode2022/Chall8.md)
+	* [Challenge 9](adventofcode2022/Chall9.md)
+	* [Challenge 10](adventofcode2022/Chall10.md)
+	* [Challenge 11](adventofcode2022/Chall11.md)
+	* [Challenge 12](adventofcode2022/Chall12.md)
