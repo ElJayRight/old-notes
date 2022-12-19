@@ -15,6 +15,7 @@
 	* [PhotoBomb](02%20-%20Hack%20The%20Box/PhotoBomb/Photobomb.md)
 	* [Resolute](02%20-%20Hack%20The%20Box/Resolute/Resolute.md)
 	* [Sauna](02%20-%20Hack%20The%20Box/Sauna/Sauna.md)
+	* [Support](02%20-%20Hack%20The%20Box/Support/Support.md)
 	* Starting Point
 		* Tier 0
 			* [Dancing](02%20-%20Hack%20The%20Box/Starting%20Point/Tier%200/Dancing.md)
