@@ -64,7 +64,7 @@ can run /home/deploy/password-manager as deploy
 ## Reversing the binary (very badly)
 cat the binary, and manually check for strings.
 ```
-���H�]���UH��H���}��u��}�u2�}���u)H�=�.�����H�u,H�5�.H��+H���/������UH���������]��AWL�=W)AVI��AUI��ATA��UH�-P)SL)�H�����H��t�L��L��D��A��H��H9�u�H�[]A\A]A^A_��H�H��Welcome to Josh password manager!Please enter your master password: SampleAccess granted! Here is creds !cat /home/deploy/creds.txtAccess denied! This incident will be reported !
+Welcome to Josh password manager!Please enter your master password: SampleAccess granted! Here is creds !cat /home/deploy/creds.txtAccess denied! This incident will be reported !
 ```
 If you run the application 
 ```bash
