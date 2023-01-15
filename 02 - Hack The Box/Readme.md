@@ -5,3 +5,5 @@
 * [Forest](./Forest/Forest.md)
 * [Resolute](./Resolute/Resolute.md)
 * [Sauna](./Sauna/Sauna.md)
+## Easy linux boxes:
+* [Shoppy](./Shoppy/Shoppy.md) 
