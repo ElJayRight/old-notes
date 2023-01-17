@@ -28,6 +28,11 @@
 			* [Appointment](02%20-%20Hack%20The%20Box/Starting%20Point/Tier%201/Appointment.md)
 			* [Crocodile](02%20-%20Hack%20The%20Box/Starting%20Point/Tier%201/Crocodile.md)
 			* [Sequel](02%20-%20Hack%20The%20Box/Starting%20Point/Tier%201/Sequel.md)
+* ROP Emporium
+	* [ret2win](05%20-%20ROP%20Emporium/01%20-%20ret2win.md)
+	* [split](05%20-%20ROP%20Emporium/02%20-%20split.md)
+	* [callme](05%20-%20ROP%20Emporium/03%20-%20callme.md)
+	* [write](05%20-%20ROP%20Emporium/04%20-%20write.md)
 * TryHackMe
 	* [Throwback Network](03%20-%20Try%20Hack%20Me/Throwback/Notes.md)
 	* [Mr Robot](03%20-%20Try%20Hack%20Me/Mr%20Robot%20CTF/Mr%20Robot.md)
@@ -35,11 +40,6 @@
 	* [Wreath AD lab](03%20-%20Try%20Hack%20Me/AD%20LABS%20With%20Pentest%20Reports/Wreath/Notes.md)
 	* [Attacktive Directory](03%20-%20Try%20Hack%20Me/Attacktive%20Directory/Attacktive%20Directory.md)
 	* [RazorBlack](03%20-%20Try%20Hack%20Me/RazorBlack/RazorBlack.md)
-* ROP Emporium
-	* [ret2win](05%20-%20ROP%20Emporium/01%20-%20ret2win.md)
-	* [split](05%20-%20ROP%20Emporium/02%20-%20split.md)
-	* [callme](05%20-%20ROP%20Emporium/03%20-%20callme.md)
-	* [write](05%20-%20ROP%20Emporium/04%20-%20write.md)
 - Vulnhub
 	- [Aragog](04%20-%20Vulnhub/Aragog/Aragog.md)
 * Pico Gym
