@@ -1,5 +1,3 @@
-# Python
-```python
 for line in open('input_6','r'):
     pass
 line = line.strip()
@@ -12,4 +10,3 @@ for i in range(len(line)-13):
     if flag==False:
         print(i+14)
         exit()
-```

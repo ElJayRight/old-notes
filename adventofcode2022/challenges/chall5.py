@@ -1,5 +1,3 @@
-# Python
-```python
 sum = 0
 for line in open("input_3",'r'):
     line=line.strip()
@@ -12,4 +10,3 @@ for line in open("input_3",'r'):
     else:
         sum += ord(i)-38
 print(sum)
-```

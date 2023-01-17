@@ -1,5 +1,3 @@
-# Python
-```python
 header = 0
 data = [[],[],[],[],[],[],[],[],[]]
 for line in open('input_5','r'):
@@ -16,10 +14,9 @@ for line in open('input_5','r'):
                 data[i//4].append('')
     elif header ==1:
         a,f,t = line.strip().split(' ')[1::2]
-        data[int(t)-1]+=data[int(f)-1][int(a)*-1:]
+        data[int(t)-1]+=data[int(f)-1][int(a)*-1:][::-1]
         data[int(f)-1] = data[int(f)-1][:-int(a)]
     else:
         header =1
 for i in data:
     print(i[-1],end='')
-```

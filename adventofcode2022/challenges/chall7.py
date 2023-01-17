@@ -1,5 +1,3 @@
-# Python
-```python
 counter = 0
 for line in open("input_4",'r'):
     x,y = line.strip().split(',')
@@ -13,4 +11,3 @@ for line in open("input_4",'r'):
         counter +=1
 
 print(counter) 
-```

@@ -1,5 +1,3 @@
-# Python
-```python
 '''
 Logic
 Rock = 1
@@ -30,4 +28,3 @@ for line in open("input_2",'r'):
         v=3
     score+=v 
 print(score)
-```

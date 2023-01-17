@@ -1,5 +1,3 @@
-# Python
-```python
 score = 0
 key = {"X":1,"Y":2,"Z":3,"A":1,"B":2,"C":3}
 for line in open("input_2",'r'):
@@ -10,4 +8,3 @@ for line in open("input_2",'r'):
     elif x%3+1==y:
         score+=6
 print(score)
-```

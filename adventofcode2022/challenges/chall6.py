@@ -1,5 +1,3 @@
-# Python
-```python
 counter = 0
 sum = 0
 array = []
@@ -20,4 +18,3 @@ if i in i.lower():
 else:
     sum += ord(i)-38
 print(sum)
-```

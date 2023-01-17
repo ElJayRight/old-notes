@@ -1,5 +1,3 @@
-# Python
-```python
 array = []
 counter =0
 for line in open("input_1",'r'):
@@ -9,6 +7,4 @@ for line in open("input_1",'r'):
     else:
         counter+=int(line.strip())
 array.append(counter)
-array.sort()
-print(sum(array[-3:]))
-```
+print(max(array))

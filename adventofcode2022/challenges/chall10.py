@@ -1,5 +1,3 @@
-# Python
-```python
 header = 0
 data = [[],[],[],[],[],[],[],[],[]]
 for line in open('input_5','r'):
@@ -22,4 +20,3 @@ for line in open('input_5','r'):
         header =1
 for i in data:
     print(i[-1],end='')
-```
