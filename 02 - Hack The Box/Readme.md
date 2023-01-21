@@ -7,3 +7,5 @@
 * [Sauna](./Sauna/Sauna.md)
 ## Easy linux boxes:
 * [Shoppy](./Shoppy/Shoppy.md) 
+## Medium linux boxes:
+* [Health](./Health/Health.md)
