@@ -62,7 +62,7 @@
 	* Forensics
 		* [Information](01%20-%20PicoGym/04%20-%20Forensics/Information.md)
 * Advent of Code 2022
-	* [Challenge 1](adventofcode2022/chall1.py)
+	* [Challenge 1](adventofcode2022/chall1.md)
 	* [Challenge 2](adventofcode2022/Chall2.md)
 	* [Challenge 3](adventofcode2022/Chall3.md)
 	* [Challenge 4](adventofcode2022/Chall4.md)
