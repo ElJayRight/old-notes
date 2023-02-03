@@ -1,4 +1,4 @@
-Following a guide for this one was stuck on the union injection in foothold.
+Following a guide for this one was stuck on the union injection in foothold and setting up gogs locally. Everything else I did on my own. :)
 
 IP: 10.10.11.176
 # Enumeration
