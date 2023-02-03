@@ -13,7 +13,6 @@
 	* [Forest](02%20-%20Hack%20The%20Box/Forest/Forest.md)
 	* [Health](02%20-%20Hack%20The%20Box/Health/Health.md)
 	* [Heist](02%20-%20Hack%20The%20Box/Heist/Heist.md)
-	* [PhotoBomb](02%20-%20Hack%20The%20Box/PhotoBomb/Photobomb.md)
 	* [Resolute](02%20-%20Hack%20The%20Box/Resolute/Resolute.md)
 	* [Sauna](02%20-%20Hack%20The%20Box/Sauna/Sauna.md)
 	* [Shoppy](02%20-%20Hack%20The%20Box/Shoppy/Shoppy.md)
