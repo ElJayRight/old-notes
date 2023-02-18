@@ -1,0 +1,13 @@
+# Nmap 7.80 scan initiated Thu Feb  9 02:50:14 2023 as: nmap -sC -sV -oA nmap/response 10.10.11.163
+Nmap scan report for 10.10.11.163
+Host is up (0.0064s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.4 (Ubuntu Linux; protocol 2.0)
+80/tcp open  http    nginx 1.21.6
+|_http-server-header: nginx/1.21.6
+|_http-title: Did not follow redirect to http://www.response.htb
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Feb  9 02:50:22 2023 -- 1 IP address (1 host up) scanned in 8.29 seconds

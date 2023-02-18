@@ -1,0 +1,4 @@
+# Nmap 7.80 scan initiated Fri Feb 17 16:55:34 2023 as: nmap -sV -sC -oA nmap/apt 10.10.10.213
+Host: 10.10.10.213 ()	Status: Up
+Host: 10.10.10.213 ()	Ports: 80/open/tcp//http//Microsoft IIS httpd 10.0/, 135/open/tcp//msrpc//Microsoft Windows RPC/	Ignored State: filtered (998)
+# Nmap done at Fri Feb 17 16:56:00 2023 -- 1 IP address (1 host up) scanned in 25.99 seconds
