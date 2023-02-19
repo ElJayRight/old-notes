@@ -15,6 +15,7 @@
 	* [Forest](02%20-%20Hack%20The%20Box/Forest/Forest.md)
 	* [Health](02%20-%20Hack%20The%20Box/Health/Health.md)
 	* [Heist](02%20-%20Hack%20The%20Box/Heist/Heist.md)
+	* [RainyDay](02%20-%20Hack%20The%20Box/RainyDay/RainyDay.md)
 	* [Resolute](02%20-%20Hack%20The%20Box/Resolute/Resolute.md)
 	* [Response](02%20-%20Hack%20The%20Box/Response/Response.md)
 	* [Sauna](02%20-%20Hack%20The%20Box/Sauna/Sauna.md)
