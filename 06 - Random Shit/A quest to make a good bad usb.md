@@ -232,4 +232,4 @@ Learn more about rubber duckies
 Look into managing more than one victim machine.
 Configure the hoaxshell to not need a new payload ever time it runs.
 
-Make it work
+Make it work, betterer

