@@ -10,6 +10,7 @@
 	* [Readme](02%20-%20Hack%20The%20Box/Readme.md)
 	* [Active](02%20-%20Hack%20The%20Box/Active/Active.md)
 	* [Ambassador](02%20-%20Hack%20The%20Box/Ambassador/Ambassador.md)
+	* [Anubis](02%20-%20Hack%20The%20Box/Anubis/Anubis.md)
 	* [APT](02%20-%20Hack%20The%20Box/APT/APT.md)
 	* [Blackfield](02%20-%20Hack%20The%20Box/Blackfield/Blackfield.md)
 	* [Cascade](02%20-%20Hack%20The%20Box/Cascade/Cascade.md)

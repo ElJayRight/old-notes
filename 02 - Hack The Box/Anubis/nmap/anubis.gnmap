@@ -1,0 +1,4 @@
+# Nmap 7.80 scan initiated Thu Feb 23 00:40:38 2023 as: nmap -sC -sV -oA nmap/anubis 10.10.11.102
+Host: 10.10.11.102 ()	Status: Up
+Host: 10.10.11.102 ()	Ports: 135/open/tcp//msrpc//Microsoft Windows RPC/, 443/open/tcp//ssl|http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/, 445/open/tcp//microsoft-ds?///, 593/open/tcp//ncacn_http//Microsoft Windows RPC over HTTP 1.0/	Ignored State: filtered (996)
+# Nmap done at Thu Feb 23 00:41:36 2023 -- 1 IP address (1 host up) scanned in 57.93 seconds
