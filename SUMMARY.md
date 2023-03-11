@@ -3,7 +3,8 @@
 * Projects
 	* [Bad USB (with a bit of AV evasion)](06%20-%20Random%20Shit/A%20quest%20to%20make%20a%20good%20bad%20usb.md)
 	* [RBCD the hard-ish way](06%20-%20Random%20Shit/RBCD%20-%20Without%20PowerView.md)
-	* [Wifi Research Part 1](06%20-%20Random%20Shit/Learning%20Wifi%20Attacks.md)
+	* [Wifi Research](06%20-%20Random%20Shit/Learning%20Wifi%20Attacks.md)
+	* [Wifi Hacking Part 1](06%20-%20Random%20Shit/Adventures%20with%20a%20RPi%20-%20Part%201)
 * HTB Reports
 	* [Cascade](02%20-%20Hack%20The%20Box/Cascade/Cascade%20Report.md)
 * Hack the box
