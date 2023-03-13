@@ -20,6 +20,7 @@
 	* [Forest](02%20-%20Hack%20The%20Box/Forest/Forest.md)
 	* [Health](02%20-%20Hack%20The%20Box/Health/Health.md)
 	* [Heist](02%20-%20Hack%20The%20Box/Heist/Heist.md)
+	* [Mentor](02%20-%20Hack%20The%20Box/Mentor/Mentor.md)
 	* [RainyDay](02%20-%20Hack%20The%20Box/RainyDay/RainyDay.md)
 	* [Resolute](02%20-%20Hack%20The%20Box/Resolute/Resolute.md)
 	* [Response](02%20-%20Hack%20The%20Box/Response/Response.md)

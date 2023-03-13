@@ -11,6 +11,7 @@
 * [Awkward](./Awkward/Awkward.md)
 * [Backend](./Backend/Backend.md)
 * [Health](./Health/Health.md)
+* [Mentor](./Mentor/Mentor.md)
 * [UpDown](./UpDown/UpDown.md)
 # Hard Linux boxes
 * [RainyDay](./RainyDay/RainyDay.md)
