@@ -2,6 +2,8 @@ List of all the challenges I solved for Hack The Box's "Cyber Apocalypse 2023 - 
 
 Planning on doing writeups for every challenge.
 
+**The links dont work. I'll fix this later.**
+
 # Pwn
 * Questionnaire
 * Getting Started
