@@ -45,7 +45,8 @@
 	* [callme](05%20-%20ROP%20Emporium%20old/03%20-%20callme.md)
 	* [write](05%20-%20ROP%20Emporium%20old/04%20-%20write.md)
 * CTFS
-	* [HTB Cyber Apocalypse 2023](HTBCTF23/Readme.md)
+	* HTB Cyber Apocalypse 2023
+		* [Readme](HTBCTF23/Readme.md)
 		* [Timed Transmission](HTBCTF23/Hardware/timed%20transmission/timed%20transmission.md)
 		* [Critical Flight](HTBCTF23/Hardware/Critical%20Flight/Critical%20Flight.md)
 		* [Debug](HTBCTF23/Hardware/Debug/Debug.md)
