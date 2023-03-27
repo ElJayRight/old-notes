@@ -8,7 +8,8 @@ This is a collection of everything I have done relating to Cyber Security and Pr
 ## Blogs / research I have done.
 * [Bad USB (with a bit of AV evasion)](06%20-%20Random%20Shit/A%20quest%20to%20make%20a%20good%20bad%20usb.md)
 * [RBCD the hard-ish way](06%20-%20Random%20Shit/RBCD%20-%20Without%20PowerView.md)
-* [Wifi Research Part 1](06%20-%20Random%20Shit/Learning%20Wifi%20Attacks.md)
+* [Wifi Research](06%20-%20Random%20Shit/Learning%20Wifi%20Attacks.md)
+* [Wifi Hacking Part 1](06%20-%20Random%20Shit/Adventures%20with%20a%20RPI%20Part%201.md)
 
 ## A mock pentest report 
 I did this for a HTB machine (Still a work in progress.)
