@@ -15,6 +15,7 @@
 * [UpDown](./UpDown/UpDown.md)
 # Hard Linux boxes
 * [RainyDay](./RainyDay/RainyDay.md)
+* [Vessel](./Vessel/Vessel.md)
 # Easy Windows boxes
 * [Heist](./Heist/Heist.md)
 * [Support](./Support/Support.md)

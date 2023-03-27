@@ -1,0 +1,294 @@
+object(__PHP_Incomplete_Class)#1 (6) {
+  ["__PHP_Incomplete_Class_Name"]=>
+  string(8) "owa_user"
+  ["name"]=>
+  string(9) "base.user"
+  ["properties"]=>
+  array(10) {
+    ["id"]=>
+    object(__PHP_Incomplete_Class)#2 (12) {
+      ["__PHP_Incomplete_Class_Name"]=>
+      string(12) "owa_dbColumn"
+      ["name"]=>
+      NULL
+      ["value"]=>
+      string(1) "1"
+      ["data_type"]=>
+      string(6) "SERIAL"
+      ["foreign_key"]=>
+      NULL
+      ["is_primary_key"]=>
+      bool(false)
+      ["auto_increment"]=>
+      bool(false)
+      ["is_unique"]=>
+      bool(false)
+      ["is_not_null"]=>
+      bool(false)
+      ["label"]=>
+      NULL
+      ["index"]=>
+      NULL
+      ["default_value"]=>
+      NULL
+    }
+    ["user_id"]=>
+    object(__PHP_Incomplete_Class)#3 (12) {
+      ["__PHP_Incomplete_Class_Name"]=>
+      string(12) "owa_dbColumn"
+      ["name"]=>
+      NULL
+      ["value"]=>
+      string(5) "admin"
+      ["data_type"]=>
+      string(12) "VARCHAR(255)"
+      ["foreign_key"]=>
+      NULL
+      ["is_primary_key"]=>
+      bool(true)
+      ["auto_increment"]=>
+      bool(false)
+      ["is_unique"]=>
+      bool(false)
+      ["is_not_null"]=>
+      bool(false)
+      ["label"]=>
+      NULL
+      ["index"]=>
+      NULL
+      ["default_value"]=>
+      NULL
+    }
+    ["password"]=>
+    object(__PHP_Incomplete_Class)#4 (12) {
+      ["__PHP_Incomplete_Class_Name"]=>
+      string(12) "owa_dbColumn"
+      ["name"]=>
+      NULL
+      ["value"]=>
+      string(60) "$2y$10$OYQZfQY2zrGj473wQ0yee.WGzZfye0Qs1c/6hWdTDHVKPHKjLVD/C"
+      ["data_type"]=>
+      string(12) "VARCHAR(255)"
+      ["foreign_key"]=>
+      NULL
+      ["is_primary_key"]=>
+      bool(false)
+      ["auto_increment"]=>
+      bool(false)
+      ["is_unique"]=>
+      bool(false)
+      ["is_not_null"]=>
+      bool(false)
+      ["label"]=>
+      NULL
+      ["index"]=>
+      NULL
+      ["default_value"]=>
+      NULL
+    }
+    ["role"]=>
+    object(__PHP_Incomplete_Class)#5 (12) {
+      ["__PHP_Incomplete_Class_Name"]=>
+      string(12) "owa_dbColumn"
+      ["name"]=>
+      NULL
+      ["value"]=>
+      string(5) "admin"
+      ["data_type"]=>
+      string(12) "VARCHAR(255)"
+      ["foreign_key"]=>
+      NULL
+      ["is_primary_key"]=>
+      bool(false)
+      ["auto_increment"]=>
+      bool(false)
+      ["is_unique"]=>
+      bool(false)
+      ["is_not_null"]=>
+      bool(false)
+      ["label"]=>
+      NULL
+      ["index"]=>
+      NULL
+      ["default_value"]=>
+      NULL
+    }
+    ["real_name"]=>
+    object(__PHP_Incomplete_Class)#6 (12) {
+      ["__PHP_Incomplete_Class_Name"]=>
+      string(12) "owa_dbColumn"
+      ["name"]=>
+      NULL
+      ["value"]=>
+      string(13) "default admin"
+      ["data_type"]=>
+      string(12) "VARCHAR(255)"
+      ["foreign_key"]=>
+      NULL
+      ["is_primary_key"]=>
+      bool(false)
+      ["auto_increment"]=>
+      bool(false)
+      ["is_unique"]=>
+      bool(false)
+      ["is_not_null"]=>
+      bool(false)
+      ["label"]=>
+      NULL
+      ["index"]=>
+      NULL
+      ["default_value"]=>
+      NULL
+    }
+    ["email_address"]=>
+    object(__PHP_Incomplete_Class)#7 (12) {
+      ["__PHP_Incomplete_Class_Name"]=>
+      string(12) "owa_dbColumn"
+      ["name"]=>
+      NULL
+      ["value"]=>
+      string(16) "admin@vessel.htb"
+      ["data_type"]=>
+      string(12) "VARCHAR(255)"
+      ["foreign_key"]=>
+      NULL
+      ["is_primary_key"]=>
+      bool(false)
+      ["auto_increment"]=>
+      bool(false)
+      ["is_unique"]=>
+      bool(false)
+      ["is_not_null"]=>
+      bool(false)
+      ["label"]=>
+      NULL
+      ["index"]=>
+      NULL
+      ["default_value"]=>
+      NULL
+    }
+    ["temp_passkey"]=>
+    object(__PHP_Incomplete_Class)#8 (12) {
+      ["__PHP_Incomplete_Class_Name"]=>
+      string(12) "owa_dbColumn"
+      ["name"]=>
+      NULL
+      ["value"]=>
+      string(32) "4d796bdd52b49d489aa057d94422a9d9"
+      ["data_type"]=>
+      string(12) "VARCHAR(255)"
+      ["foreign_key"]=>
+      NULL
+      ["is_primary_key"]=>
+      bool(false)
+      ["auto_increment"]=>
+      bool(false)
+      ["is_unique"]=>
+      bool(false)
+      ["is_not_null"]=>
+      bool(false)
+      ["label"]=>
+      NULL
+      ["index"]=>
+      NULL
+      ["default_value"]=>
+      NULL
+    }
+    ["creation_date"]=>
+    object(__PHP_Incomplete_Class)#9 (12) {
+      ["__PHP_Incomplete_Class_Name"]=>
+      string(12) "owa_dbColumn"
+      ["name"]=>
+      NULL
+      ["value"]=>
+      string(10) "1650211659"
+      ["data_type"]=>
+      string(6) "BIGINT"
+      ["foreign_key"]=>
+      NULL
+      ["is_primary_key"]=>
+      bool(false)
+      ["auto_increment"]=>
+      bool(false)
+      ["is_unique"]=>
+      bool(false)
+      ["is_not_null"]=>
+      bool(false)
+      ["label"]=>
+      NULL
+      ["index"]=>
+      NULL
+      ["default_value"]=>
+      NULL
+    }
+    ["last_update_date"]=>
+    object(__PHP_Incomplete_Class)#10 (12) {
+      ["__PHP_Incomplete_Class_Name"]=>
+      string(12) "owa_dbColumn"
+      ["name"]=>
+      NULL
+      ["value"]=>
+      string(10) "1650211659"
+      ["data_type"]=>
+      string(6) "BIGINT"
+      ["foreign_key"]=>
+      NULL
+      ["is_primary_key"]=>
+      bool(false)
+      ["auto_increment"]=>
+      bool(false)
+      ["is_unique"]=>
+      bool(false)
+      ["is_not_null"]=>
+      bool(false)
+      ["label"]=>
+      NULL
+      ["index"]=>
+      NULL
+      ["default_value"]=>
+      NULL
+    }
+    ["api_key"]=>
+    object(__PHP_Incomplete_Class)#11 (12) {
+      ["__PHP_Incomplete_Class_Name"]=>
+      string(12) "owa_dbColumn"
+      ["name"]=>
+      string(7) "api_key"
+      ["value"]=>
+      string(32) "a390cc0247ecada9a2b8d2338b9ca6d2"
+      ["data_type"]=>
+      string(12) "VARCHAR(255)"
+      ["foreign_key"]=>
+      NULL
+      ["is_primary_key"]=>
+      bool(false)
+      ["auto_increment"]=>
+      bool(false)
+      ["is_unique"]=>
+      bool(false)
+      ["is_not_null"]=>
+      bool(false)
+      ["label"]=>
+      NULL
+      ["index"]=>
+      NULL
+      ["default_value"]=>
+      NULL
+    }
+  }
+  ["_tableProperties"]=>
+  array(4) {
+    ["alias"]=>
+    string(4) "user"
+    ["name"]=>
+    string(8) "owa_user"
+    ["cacheable"]=>
+    bool(true)
+    ["cache_expiration_period"]=>
+    int(604800)
+  }
+  ["wasPersisted"]=>
+  bool(true)
+  ["cache"]=>
+  NULL
+}

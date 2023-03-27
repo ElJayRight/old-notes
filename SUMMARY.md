@@ -39,6 +39,7 @@
 			* [Crocodile](02%20-%20Hack%20The%20Box/Starting%20Point/Tier%201/Crocodile.md)
 			* [Sequel](02%20-%20Hack%20The%20Box/Starting%20Point/Tier%201/Sequel.md)
 	* [UpDown](02%20-%20Hack%20The%20Box/UpDown/UpDown.md)
+	* [Vessel](02%20-%20Hack%20The%20Box/Vessel/Vessel.md)
 * ROP Emporium \[Archived\]
 	* [ret2win](05%20-%20ROP%20Emporium%20old/01%20-%20ret2win.md)
 	* [split](05%20-%20ROP%20Emporium/02%20-%20split.md)
