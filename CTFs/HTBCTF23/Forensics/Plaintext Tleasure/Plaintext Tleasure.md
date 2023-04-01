@@ -1,0 +1,3 @@
+So um i `rm -rf`'d the wrong directory and lost the write up ...
+
+I will fix this later *maybe*
