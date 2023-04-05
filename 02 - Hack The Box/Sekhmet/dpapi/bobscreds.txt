@@ -1,0 +1,3 @@
+file: Login.sqlite user: bob.wood@windcorp.htb pass: b'SemTro\xc2\xa432756Gff' url: http://somewhere.com/action_page.php
+file: Login.sqlite user: bob.wood@windcorp.htb pass: b'SomeSecurePasswordIGuess!09' url: http://google.com/action_page.php
+file: Login.sqlite user: bob.woodADM@windcorp.com pass: b'smeT-Worg-wer-m024' url: http://webmail.windcorp.com/action_page.php

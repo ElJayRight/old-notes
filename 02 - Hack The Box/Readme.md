@@ -23,4 +23,5 @@
 * [Blackfield](./Blackfield/Blackfield.md)
 # Insane Windows boxes
 * [Anubis](./Anubis/Anubis.md)
+* [Sekhmet](./Sekhmet/Sekhmet.md)
 * [APT](./APT/APT.md)

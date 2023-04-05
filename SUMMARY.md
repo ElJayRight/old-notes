@@ -25,6 +25,7 @@
 	* [Resolute](02%20-%20Hack%20The%20Box/Resolute/Resolute.md)
 	* [Response](02%20-%20Hack%20The%20Box/Response/Response.md)
 	* [Sauna](02%20-%20Hack%20The%20Box/Sauna/Sauna.md)
+	* [Sekhmet](02%20-%20Hack%20The%20Box/Sekhmet/Sekhmet.md)
 	* [Shoppy](02%20-%20Hack%20The%20Box/Shoppy/Shoppy.md)
 	* [Support](02%20-%20Hack%20The%20Box/Support/Support.md)
 	* Starting Point
