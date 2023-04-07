@@ -1,0 +1,188 @@
+USER INFORMATION
+----------------
+
+User Name         SID                                           
+================= ==============================================
+windcorp\ginawild S-1-5-21-3783586571-2109290616-3725730865-2663
+
+
+GROUP INFORMATION
+-----------------
+
+Group Name                                 Type             SID                                            Attributes                                        
+========================================== ================ ============================================== ==================================================
+Everyone                                   Well-known group S-1-1-0                                        Mandatory group, Enabled by default, Enabled group
+BUILTIN\Users                              Alias            S-1-5-32-545                                   Mandatory group, Enabled by default, Enabled group
+BUILTIN\Certificate Service DCOM Access    Alias            S-1-5-32-574                                   Mandatory group, Enabled by default, Enabled group
+BUILTIN\Account Operators                  Alias            S-1-5-32-548                                   Group used for deny only                          
+NT AUTHORITY\INTERACTIVE                   Well-known group S-1-5-4                                        Mandatory group, Enabled by default, Enabled group
+CONSOLE LOGON                              Well-known group S-1-2-1                                        Mandatory group, Enabled by default, Enabled group
+NT AUTHORITY\Authenticated Users           Well-known group S-1-5-11                                       Mandatory group, Enabled by default, Enabled group
+NT AUTHORITY\This Organization             Well-known group S-1-5-15                                       Mandatory group, Enabled by default, Enabled group
+LOCAL                                      Well-known group S-1-2-0                                        Mandatory group, Enabled by default, Enabled group
+WINDCORP\ITDep                             Group            S-1-5-21-3783586571-2109290616-3725730865-9601 Mandatory group, Enabled by default, Enabled group
+WINDCORP\Protected Users                   Group            S-1-5-21-3783586571-2109290616-3725730865-525  Mandatory group, Enabled by default, Enabled group
+Authentication authority asserted identity Well-known group S-1-18-1                                       Mandatory group, Enabled by default, Enabled group
+Mandatory Label\Medium Mandatory Level     Label            S-1-16-8192                                                                                      
+
+
+PRIVILEGES INFORMATION
+----------------------
+
+Privilege Name                Description                    State   
+============================= ============================== ========
+SeMachineAccountPrivilege     Add workstations to domain     Disabled
+SeChangeNotifyPrivilege       Bypass traverse checking       Enabled 
+SeIncreaseWorkingSetPrivilege Increase a process working set Disabled
+
+
+USER CLAIMS INFORMATION
+-----------------------
+
+User claims unknown.
+
+Kerberos support for Dynamic Access Control on this device has been disabled.
+C:\share NT AUTHORITY\IUSR:(OI)(CI)(N)
+         BUILTIN\IIS_IUSRS:(OI)(CI)(N)
+         WINDCORP\web:(OI)(CI)(N)
+         CREATOR OWNER:(OI)(CI)(IO)(M,WO,DC)
+         NT AUTHORITY\SYSTEM:(OI)(CI)(F)
+         WINDCORP\ITDep:(OI)(IO)(RX,WO)
+         WINDCORP\ITDep:(WO,S)
+         BUILTIN\Administrators:(OI)(CI)(F)
+         BUILTIN\Users:(OI)(IO)(RX)
+         BUILTIN\Users:(RX,W)
+
+Successfully processed 1 files; Failed processing 0 files
+C:\share\AutoIt3_x64.exe NT AUTHORITY\IUSR:(N)
+                         BUILTIN\IIS_IUSRS:(N)
+                         NT AUTHORITY\SYSTEM:(F)
+                         BUILTIN\Administrators:(F)
+                         BUILTIN\Users:(RX)
+                         WINDCORP\ITDep:(RX,DC)
+
+C:\share\Bginfo64.exe NT AUTHORITY\IUSR:(I)(N)
+                      BUILTIN\IIS_IUSRS:(I)(N)
+                      WINDCORP\web:(I)(N)
+                      BUILTIN\Administrators:(I)(M,WO,DC)
+                      NT AUTHORITY\SYSTEM:(I)(F)
+                      WINDCORP\ITDep:(I)(RX,WO)
+                      BUILTIN\Administrators:(I)(F)
+                      BUILTIN\Users:(I)(RX)
+
+C:\share\scripts BUILTIN\IIS_IUSRS:(OI)(CI)(DENY)(RX)
+                 NT AUTHORITY\IUSR:(OI)(CI)(DENY)(RX)
+                 BUILTIN\Administrators:(OI)(CI)(F)
+                 CREATOR OWNER:(OI)(CI)(IO)(M,WO,DC)
+                 WINDCORP\ITDep:(OI)(IO)(RX,DC)
+                 NT AUTHORITY\SYSTEM:(OI)(CI)(F)
+                 BUILTIN\Users:(OI)(CI)(RX)
+
+Successfully processed 3 files; Failed processing 0 files
+C:\share\scripts\7-zip64.dll BUILTIN\Users:(RX,W)
+                             BUILTIN\IIS_IUSRS:(I)(DENY)(RX)
+                             NT AUTHORITY\IUSR:(I)(DENY)(RX)
+                             BUILTIN\Administrators:(I)(F)
+                             WINDCORP\ITDep:(I)(RX,DC)
+                             NT AUTHORITY\SYSTEM:(I)(F)
+                             BUILTIN\Users:(I)(RX)
+
+C:\share\scripts\7Zip.au3 BUILTIN\IIS_IUSRS:(I)(DENY)(RX)
+                          NT AUTHORITY\IUSR:(I)(DENY)(RX)
+                          BUILTIN\Administrators:(I)(F)
+                          WINDCORP\ITDep:(I)(RX,DC)
+                          NT AUTHORITY\SYSTEM:(I)(F)
+                          BUILTIN\Users:(I)(RX)
+
+C:\share\scripts\ZipExample.zip BUILTIN\IIS_IUSRS:(I)(DENY)(RX)
+                                NT AUTHORITY\IUSR:(I)(DENY)(RX)
+                                BUILTIN\Administrators:(I)(F)
+                                WINDCORP\ITDep:(I)(RX,DC)
+                                NT AUTHORITY\SYSTEM:(I)(F)
+                                BUILTIN\Users:(I)(RX)
+
+C:\share\scripts\_7ZipAdd_Example.au3 BUILTIN\IIS_IUSRS:(I)(DENY)(RX)
+                                      NT AUTHORITY\IUSR:(I)(DENY)(RX)
+                                      BUILTIN\Administrators:(I)(F)
+                                      WINDCORP\ITDep:(I)(RX,DC)
+                                      NT AUTHORITY\SYSTEM:(I)(F)
+                                      BUILTIN\Users:(I)(RX)
+
+C:\share\scripts\_7ZipAdd_Example_using_Callback.au3 BUILTIN\IIS_IUSRS:(I)(DENY)(RX)
+                                                     NT AUTHORITY\IUSR:(I)(DENY)(RX)
+                                                     BUILTIN\Administrators:(I)(F)
+                                                     WINDCORP\ITDep:(I)(RX,DC)
+                                                     NT AUTHORITY\SYSTEM:(I)(F)
+                                                     BUILTIN\Users:(I)(RX)
+
+C:\share\scripts\_7ZipDelete_Example.au3 BUILTIN\IIS_IUSRS:(I)(DENY)(RX)
+                                         NT AUTHORITY\IUSR:(I)(DENY)(RX)
+                                         BUILTIN\Administrators:(I)(F)
+                                         WINDCORP\ITDep:(I)(RX,DC)
+                                         NT AUTHORITY\SYSTEM:(I)(F)
+                                         BUILTIN\Users:(I)(RX)
+
+C:\share\scripts\_7ZIPExtractEx_Example.au3 BUILTIN\IIS_IUSRS:(I)(DENY)(RX)
+                                            NT AUTHORITY\IUSR:(I)(DENY)(RX)
+                                            BUILTIN\Administrators:(I)(F)
+                                            WINDCORP\ITDep:(I)(RX,DC)
+                                            NT AUTHORITY\SYSTEM:(I)(F)
+                                            BUILTIN\Users:(I)(RX)
+
+C:\share\scripts\_7ZIPExtractEx_Example_using_Callback.au3 BUILTIN\IIS_IUSRS:(I)(DENY)(RX)
+                                                           NT AUTHORITY\IUSR:(I)(DENY)(RX)
+                                                           BUILTIN\Administrators:(I)(F)
+                                                           WINDCORP\ITDep:(I)(RX,DC)
+                                                           NT AUTHORITY\SYSTEM:(I)(F)
+                                                           BUILTIN\Users:(I)(RX)
+
+C:\share\scripts\_7ZIPExtract_Example.au3 BUILTIN\IIS_IUSRS:(I)(DENY)(RX)
+                                          NT AUTHORITY\IUSR:(I)(DENY)(RX)
+                                          BUILTIN\Administrators:(I)(F)
+                                          WINDCORP\ITDep:(I)(RX,DC)
+                                          NT AUTHORITY\SYSTEM:(I)(F)
+                                          BUILTIN\Users:(I)(RX)
+
+C:\share\scripts\_7ZipFindFirst__7ZipFindNext_Example.au3 BUILTIN\IIS_IUSRS:(I)(DENY)(RX)
+                                                          NT AUTHORITY\IUSR:(I)(DENY)(RX)
+                                                          BUILTIN\Administrators:(I)(F)
+                                                          WINDCORP\ITDep:(I)(RX,DC)
+                                                          NT AUTHORITY\SYSTEM:(I)(F)
+                                                          BUILTIN\Users:(I)(RX)
+
+C:\share\scripts\_7ZIPUpdate_Example.au3 BUILTIN\IIS_IUSRS:(I)(DENY)(RX)
+                                         NT AUTHORITY\IUSR:(I)(DENY)(RX)
+                                         BUILTIN\Administrators:(I)(F)
+                                         WINDCORP\ITDep:(I)(RX,DC)
+                                         NT AUTHORITY\SYSTEM:(I)(F)
+                                         BUILTIN\Users:(I)(RX)
+
+C:\share\scripts\_Archive_Size.au3 BUILTIN\IIS_IUSRS:(I)(DENY)(RX)
+                                   NT AUTHORITY\IUSR:(I)(DENY)(RX)
+                                   BUILTIN\Administrators:(I)(F)
+                                   WINDCORP\ITDep:(I)(RX,DC)
+                                   NT AUTHORITY\SYSTEM:(I)(F)
+                                   BUILTIN\Users:(I)(RX)
+
+C:\share\scripts\_CheckExample.au3 BUILTIN\IIS_IUSRS:(I)(DENY)(RX)
+                                   NT AUTHORITY\IUSR:(I)(DENY)(RX)
+                                   BUILTIN\Administrators:(I)(F)
+                                   WINDCORP\ITDep:(I)(RX,DC)
+                                   NT AUTHORITY\SYSTEM:(I)(F)
+                                   BUILTIN\Users:(I)(RX)
+
+C:\share\scripts\_GetZipListExample.au3 BUILTIN\IIS_IUSRS:(I)(DENY)(RX)
+                                        NT AUTHORITY\IUSR:(I)(DENY)(RX)
+                                        BUILTIN\Administrators:(I)(F)
+                                        WINDCORP\ITDep:(I)(RX,DC)
+                                        NT AUTHORITY\SYSTEM:(I)(F)
+                                        BUILTIN\Users:(I)(RX)
+
+C:\share\scripts\_MiscExamples.au3 BUILTIN\IIS_IUSRS:(I)(DENY)(RX)
+                                   NT AUTHORITY\IUSR:(I)(DENY)(RX)
+                                   BUILTIN\Administrators:(I)(F)
+                                   WINDCORP\ITDep:(I)(RX,DC)
+                                   NT AUTHORITY\SYSTEM:(I)(F)
+                                   BUILTIN\Users:(I)(RX)
+
+Successfully processed 15 files; Failed processing 0 files

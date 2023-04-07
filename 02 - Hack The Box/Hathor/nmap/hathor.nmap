@@ -1,0 +1,60 @@
+# Nmap 7.80 scan initiated Wed Apr  5 15:32:58 2023 as: nmap -sC -sV -oA nmap/hathor 10.10.11.147
+Nmap scan report for 10.10.11.147
+Host is up (0.0072s latency).
+Not shown: 988 filtered ports
+PORT     STATE SERVICE       VERSION
+53/tcp   open  domain?
+| fingerprint-strings: 
+|   DNSVersionBindReqTCP: 
+|     version
+|_    bind
+80/tcp   open  http          Microsoft IIS httpd 10.0
+|_http-server-header: Microsoft-IIS/10.0
+|_http-title: Home - mojoPortal
+88/tcp   open  kerberos-sec  Microsoft Windows Kerberos (server time: 2023-04-05 05:32:52Z)
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+389/tcp  open  ldap          Microsoft Windows Active Directory LDAP (Domain: windcorp.htb0., Site: Default-First-Site-Name)
+| ssl-cert: Subject: commonName=hathor.windcorp.htb
+| Subject Alternative Name: othername: 1.3.6.1.4.1.311.25.1::<unsupported>, DNS:hathor.windcorp.htb
+| Not valid before: 2023-04-05T05:09:56
+|_Not valid after:  2024-04-04T05:09:56
+|_ssl-date: 2023-04-05T05:35:48+00:00; -17s from scanner time.
+445/tcp  open  microsoft-ds?
+464/tcp  open  kpasswd5?
+593/tcp  open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+636/tcp  open  ssl/ldap      Microsoft Windows Active Directory LDAP (Domain: windcorp.htb0., Site: Default-First-Site-Name)
+| ssl-cert: Subject: commonName=hathor.windcorp.htb
+| Subject Alternative Name: othername: 1.3.6.1.4.1.311.25.1::<unsupported>, DNS:hathor.windcorp.htb
+| Not valid before: 2023-04-05T05:09:56
+|_Not valid after:  2024-04-04T05:09:56
+|_ssl-date: 2023-04-05T05:35:48+00:00; -17s from scanner time.
+3268/tcp open  ldap          Microsoft Windows Active Directory LDAP (Domain: windcorp.htb0., Site: Default-First-Site-Name)
+| ssl-cert: Subject: commonName=hathor.windcorp.htb
+| Subject Alternative Name: othername: 1.3.6.1.4.1.311.25.1::<unsupported>, DNS:hathor.windcorp.htb
+| Not valid before: 2023-04-05T05:09:56
+|_Not valid after:  2024-04-04T05:09:56
+|_ssl-date: 2023-04-05T05:35:48+00:00; -17s from scanner time.
+3269/tcp open  ssl/ldap      Microsoft Windows Active Directory LDAP (Domain: windcorp.htb0., Site: Default-First-Site-Name)
+| ssl-cert: Subject: commonName=hathor.windcorp.htb
+| Subject Alternative Name: othername: 1.3.6.1.4.1.311.25.1::<unsupported>, DNS:hathor.windcorp.htb
+| Not valid before: 2023-04-05T05:09:56
+|_Not valid after:  2024-04-04T05:09:56
+|_ssl-date: 2023-04-05T05:35:48+00:00; -17s from scanner time.
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port53-TCP:V=7.80%I=7%D=4/5%Time=642D081A%P=x86_64-pc-linux-gnu%r(DNSVe
+SF:rsionBindReqTCP,20,"\0\x1e\0\x06\x81\x04\0\x01\0\0\0\0\0\0\x07version\x
+SF:04bind\0\0\x10\0\x03");
+Service Info: Host: HATHOR; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: -17s, deviation: 0s, median: -17s
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled and required
+| smb2-time: 
+|   date: 2023-04-05T05:35:10
+|_  start_date: N/A
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Apr  5 15:36:06 2023 -- 1 IP address (1 host up) scanned in 187.46 seconds
