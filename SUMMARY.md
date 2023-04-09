@@ -21,6 +21,7 @@
 	* [Health](02%20-%20Hack%20The%20Box/Health/Health.md)
 	* [Heist](02%20-%20Hack%20The%20Box/Heist/Heist.md)
 	* [Mentor](02%20-%20Hack%20The%20Box/Mentor/Mentor.md)
+	* [PivotAPI](02%20-%20Hack%20The%20Box/PivotAPI/PivotAPI.md)
 	* [RainyDay](02%20-%20Hack%20The%20Box/RainyDay/RainyDay.md)
 	* [Resolute](02%20-%20Hack%20The%20Box/Resolute/Resolute.md)
 	* [Response](02%20-%20Hack%20The%20Box/Response/Response.md)
@@ -92,7 +93,6 @@
 		* [rotation](CTFs/PicoCTF23/Crypto/rotation/rotation.md)
 		* [HideToSee](CTFs/PicoCTF23/Crypto/HideToSee/HideToSee.md)
 		* [ReadMyCert](CTFs/PicoCTF23/Crypto/ReadMyCert/ReadMyCert.md)
-MyCert.md)
 * TryHackMe
 	* [Throwback Network](03%20-%20Try%20Hack%20Me/Throwback/Notes.md)
 	* [Mr Robot](03%20-%20Try%20Hack%20Me/Mr%20Robot%20CTF/Mr%20Robot.md)

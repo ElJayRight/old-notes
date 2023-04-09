@@ -1,0 +1,27 @@
+SMB         10.10.10.240    445    PIVOTAPI         LicorDeBellota.htb\Administrador                  Cuenta integrada para la administración del equipo o dominio
+SMB         10.10.10.240    445    PIVOTAPI         LicorDeBellota.htb\Invitado                       Cuenta integrada para el acceso como invitado al equipo o dominio
+SMB         10.10.10.240    445    PIVOTAPI         LicorDeBellota.htb\krbtgt                         Cuenta de servicio de centro de distribución de claves
+SMB         10.10.10.240    445    PIVOTAPI         LicorDeBellota.htb\cybervaca                      
+SMB         10.10.10.240    445    PIVOTAPI         LicorDeBellota.htb\3v4Si0N                        
+SMB         10.10.10.240    445    PIVOTAPI         LicorDeBellota.htb\Kaorz                          
+SMB         10.10.10.240    445    PIVOTAPI         LicorDeBellota.htb\jari                           
+SMB         10.10.10.240    445    PIVOTAPI         LicorDeBellota.htb\superfume                      
+SMB         10.10.10.240    445    PIVOTAPI         LicorDeBellota.htb\Dr.Zaiuss                      
+SMB         10.10.10.240    445    PIVOTAPI         LicorDeBellota.htb\svc_mssql                      
+SMB         10.10.10.240    445    PIVOTAPI         LicorDeBellota.htb\sshd                           
+SMB         10.10.10.240    445    PIVOTAPI         LicorDeBellota.htb\gibdeon                        
+SMB         10.10.10.240    445    PIVOTAPI         LicorDeBellota.htb\lothbrok                       
+SMB         10.10.10.240    445    PIVOTAPI         LicorDeBellota.htb\0xVIC                          
+SMB         10.10.10.240    445    PIVOTAPI         LicorDeBellota.htb\StooormQ                       
+SMB         10.10.10.240    445    PIVOTAPI         LicorDeBellota.htb\manulqwerty                    
+SMB         10.10.10.240    445    PIVOTAPI         LicorDeBellota.htb\borjmz                         
+SMB         10.10.10.240    445    PIVOTAPI         LicorDeBellota.htb\v1s0r                          
+SMB         10.10.10.240    445    PIVOTAPI         LicorDeBellota.htb\FrankyTech                     
+SMB         10.10.10.240    445    PIVOTAPI         LicorDeBellota.htb\Gh0spp7                        
+SMB         10.10.10.240    445    PIVOTAPI         LicorDeBellota.htb\socketz                        
+SMB         10.10.10.240    445    PIVOTAPI         LicorDeBellota.htb\Fiiti                          
+SMB         10.10.10.240    445    PIVOTAPI         LicorDeBellota.htb\OscarAkaElvis                  
+SMB         10.10.10.240    445    PIVOTAPI         LicorDeBellota.htb\Jharvar                        
+SMB         10.10.10.240    445    PIVOTAPI         LicorDeBellota.htb\aDoN90                         
+SMB         10.10.10.240    445    PIVOTAPI         LicorDeBellota.htb\ippsec                         
+SMB         10.10.10.240    445    PIVOTAPI         LicorDeBellota.htb\0xdf
