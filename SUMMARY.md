@@ -16,6 +16,7 @@
 	* [Awkward](02%20-%20Hack%20The%20Box/Awkward/Awkward.md)
 	* [Backend](02%20-%20Hack%20The%20Box/Backend/Backend.md)
 	* [Blackfield](02%20-%20Hack%20The%20Box/Blackfield/Blackfield.md)
+	* [BroScience](02%20-%20Hack%20The%20Box/BroScience/BroScience.md)
 	* [Cascade](02%20-%20Hack%20The%20Box/Cascade/Cascade.md)
 	* [Forest](02%20-%20Hack%20The%20Box/Forest/Forest.md)
 	* [Health](02%20-%20Hack%20The%20Box/Health/Health.md)

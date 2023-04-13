@@ -1,0 +1,4 @@
+# Nmap 7.80 scan initiated Thu Apr 13 18:01:18 2023 as: nmap -sC -sV -oA nmap/broscience 10.10.11.195
+Host: 10.10.11.195 ()	Status: Up
+Host: 10.10.11.195 ()	Ports: 22/open/tcp//ssh//OpenSSH 8.4p1 Debian 5+deb11u1 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.54/, 443/open/tcp//ssl|http//Apache httpd 2.4.54 ((Debian))/	Ignored State: closed (997)
+# Nmap done at Thu Apr 13 18:01:34 2023 -- 1 IP address (1 host up) scanned in 16.79 seconds

@@ -10,6 +10,7 @@
 * [Ambassador](./Ambassador/Ambassador.md)
 * [Awkward](./Awkward/Awkward.md)
 * [Backend](./Backend/Backend.md)
+* [BroScience](./BroScience/BroScience.md)
 * [Health](./Health/Health.md)
 * [Mentor](./Mentor/Mentor.md)
 * [UpDown](./UpDown/UpDown.md)
