@@ -1,7 +1,7 @@
 # NOTE
 Following ippsec's video to learn a bunch of new things :)
 # Enumeration
-IP: 10.10.10.179
+IP: 10.10.10.179nmap -sC -sV -oA nmap/silo 10.10.10.82
 ## Nmap
 ```bash
 sudo nmap -sC -sV -oA nmap/multimaster 10.10.10.179
