@@ -1,5 +1,5 @@
 # README
-This is a collection of everything I have done relating to Cyber Security and Programming. Currently I'm focusing on Hack The Box machines at the moment, trying to do at least 3 a week.
+This is a collection of everything I have done relating to Cyber Security and Programming. Currently I'm doing the OSCP!! So going to be doing a bunch of OSCP like boxes and content.
 
 
 
@@ -41,7 +41,7 @@ I'm pretty good at pentesting a web app but there are a few small things that I 
 
 
 # Current Projects
-I have a really bad habit of not finishing things. Below are the 4 I'm currently juggling.
+I have a really bad habit of not finishing things. Below are the ones I'm currently juggling.
 
 ## Wifi research
 Planning to do a part 2 and 3. Part 2 will go into running an evil twin attack on a RPi with the option of having a deauth attack. Part 3 will be taking this even further, mostly polishing off any issues I have run into and trying to create a deauther script for a Pico W.
@@ -52,5 +52,3 @@ Want to complete all the insane windows boxes following a guide, as this is the 
 ## Bad USB
 Continue the bad usb research. I think I have everything figured out and I just need to sit down and do it.
 
-## Tic Tac Toe Bot
-Dumb python project, that captures screen input and auto clicks the best move in a tictactoe game. Why am I doing this? good question!

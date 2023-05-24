@@ -1,0 +1,14 @@
+# Nmap 7.93 scan initiated Mon May 15 01:02:40 2023 as: nmap -sC -sV -oA nmap/bounty 10.10.10.93
+Nmap scan report for 10.10.10.93
+Host is up (0.0080s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Microsoft IIS httpd 7.5
+|_http-title: Bounty
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/7.5
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon May 15 01:02:58 2023 -- 1 IP address (1 host up) scanned in 18.63 seconds

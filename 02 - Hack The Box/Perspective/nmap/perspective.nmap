@@ -1,0 +1,19 @@
+# Nmap 7.93 scan initiated Wed May 24 22:40:55 2023 as: nmap -sC -sV -oA nmap/perspective 10.10.11.151
+Nmap scan report for 10.10.11.151
+Host is up (0.061s latency).
+Not shown: 998 filtered tcp ports (no-response)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH for_Windows_7.7 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 d67f3fd42215ce64f3c80079bff6f8f8 (RSA)
+|   256 08c6d4f398840ffd4bede3a625bde770 (ECDSA)
+|_  256 32816a8b4df96109ffd3996ce73fa3ac (ED25519)
+80/tcp open  http    Microsoft IIS httpd 10.0
+|_http-server-header: Microsoft-IIS/10.0
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-title: Site doesn't have a title (text/html).
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed May 24 22:41:23 2023 -- 1 IP address (1 host up) scanned in 27.70 seconds
