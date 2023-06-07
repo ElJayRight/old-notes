@@ -5,6 +5,11 @@
 	* [RBCD the hard-ish way](06%20-%20Random%20Shit/RBCD%20-%20Without%20PowerView.md)
 	* [Wifi Research](06%20-%20Random%20Shit/Learning%20Wifi%20Attacks.md)
 	* [Wifi Hacking Part 1](06%20-%20Random%20Shit/Adventures%20with%20a%20RPi%20part%201.md)
+* [Offensive Security Tooling](Offsec%20Dev/What's%20This?.md)
+	* [Bad USB Part 1](Offsec%20Dev/Bad%20USB%20Part%201/md)
+	* [Into to Malware Development](Offsec%20Dev/Intro%20MalDev.md)
+	* [Shellcode Injection](Offsec%20Dev/Shellcode%20injection.md)
+	* [MACAddr Encoder / Injector](Offsec%20Dev/Encoding%20Shellcode%20as%20MACAddrs.md)
 * HTB Reports
 	* [Cascade](02%20-%20Hack%20The%20Box/Cascade/Cascade%20Report.md)
 * Hack the box
@@ -101,8 +106,6 @@
 	* [Wreath AD lab](03%20-%20Try%20Hack%20Me/AD%20LABS%20With%20Pentest%20Reports/Wreath/Notes.md)
 	* [Attacktive Directory](03%20-%20Try%20Hack%20Me/Attacktive%20Directory/Attacktive%20Directory.md)
 	* [RazorBlack](03%20-%20Try%20Hack%20Me/RazorBlack/RazorBlack.md)
-- Vulnhub
-	- [Aragog](04%20-%20Vulnhub/Aragog/Aragog.md)
 * Pico Gym
 	* Web
 		* [Get aHEAD](01%20-%20PicoGym/01%20-%20Web%20Challenges/GET%20aHEAD.md)
