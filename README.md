@@ -17,7 +17,7 @@ I did this for a HTB machine (Still a work in progress.)
 
 # Offensive Security Tooling
 A collection of tools that I'm developing mainly focusing on AV evasion and Bad USB. Currently I'm working on a custom encoder that seems to be bypassing AV. (As of June 2023.)
-* [Index of tools](Offsec%20Dev.md)
+* [Index of tools](Offsec%20Dev/README.md)
 
 ## HTB machines
 * [Index of boxes](02%20-%20Hack%20The%20Box/Readme.md)
