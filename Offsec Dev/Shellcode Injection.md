@@ -3,8 +3,7 @@ reference: [crow's gitbook](https://crows-nest.gitbook.io/crows-nest/malware-dev
 # The words bit
 Instead of basically copying crow's blog I'm going to add a few things.
 1. Automate the whole "find notepad.exe PID and then start the program" thing.
-2. Inject into the current program.
-3. Load the shellcode from a file.
+2. Load the shellcode from a file.
 
 # Remote Process Injection
 I think remote is the write word.
@@ -78,5 +77,19 @@ int main(int argc, char* argv[]) {
 
 # Changes
 ## Automation
-## Inject into current program
+This will be super easy as I can just add the code from [Into to MalDev](./Intro%20to%20MalDev) where I made mspaint open.
+```c
+STARTUPINFOW si;
+PROCESS_INFORMATION pi;
+
+if (!CreateProcessW(L"C:\\WINDOWS\\system32\\mspaint.exe",NULL,NULL,NULL,FALSE,0,NULL,NULL,&si,&pi)){
+	printf("(-) failed to create process, error: %ld", GetLastError());
+	return EXIT_FAILURE;
+}
+printf("(+) process started! pid: %ld", pi.dwProcessId);
+return EXIT_SUCCESS;
+```
+
+Then just assign PID to be `pi.dwProcessId`
+
 ## Load from file
