@@ -13,5 +13,5 @@ Going to use this [crow's gitbook](https://crows-nest.gitbook.io/crows-nest/malw
 |[Shellcode Injection](./Shellcode%20Injection.md)|In progress|Create a remote process and thread and inject meterpreter shellcode to get a rev shell (No AV bypass)|
 |DLL Injection|Not Started|The same thing as shellcode injection but using a DLL instead|
 |[MACAddr Encoder / Injector](./Encoding%20Shellcode%20as%20MACAddrs.md)|In progress|I overheard something about decoding MACAddrs into shell code and running in memory being a valid AV bypass (As of June 2023).|
-|Shellcode runner in Nim|Not Started|If this turns out well I might use Nim instead of C/C++ as it sounds easier. |
-|AV Evasion with Nim|Not Started|As a follow up to the shellcode runner.|
+|[Shellcode runner in Nim](./Nim%20101.md)|Done|If this turns out well I might use Nim instead of C/C++ as it sounds easier. (Tiny bit of AV evasion too.) |
+

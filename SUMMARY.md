@@ -10,6 +10,7 @@
 	* [Into to Malware Development](Offsec%20Dev/Intro%20to%20MalDev.md)
 	* [Shellcode Injection](Offsec%20Dev/Shellcode%20Injection.md)
 	* [MACAddr Encoder / Injector](Offsec%20Dev/Encoding%20Shellcode%20as%20MACAddrs.md)
+	* [Nim Shellcode runner / stager](Offsec%20Dev/Nim%20101.md)
 * HTB Reports
 	* [Cascade](02%20-%20Hack%20The%20Box/Cascade/Cascade%20Report.md)
 * Hack the box
