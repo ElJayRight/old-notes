@@ -133,4 +133,5 @@ A good start to debug this is to check if the shellcode is decoded correctly in 
 
 How? yea I have no idea.
 
-## Memory analysis
+# Nim
+Lets redo the entire thing but with nim! I just learnt it so this is going to go very well.

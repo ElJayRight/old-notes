@@ -37,7 +37,7 @@ Going to be passed to other functions.
 If a process finds out its process handle, window handle and module handle it can send it to a different process.
 
 ## Windows API
-APIs. A waiter in a fancy food eating place (forgot the word).
+APIs. A waiter in a restaurant.
 
 Everything is backwards compatiable. So this should work on XP machines.
 
