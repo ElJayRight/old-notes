@@ -6,10 +6,10 @@ This is a collection of everything I have done relating to Cyber Security and Pr
 # What's on this site?
 
 ## Blogs / research I have done.
-* [Bad USB (with a bit of AV evasion)](06%20-%20Random%20Shit/A%20quest%20to%20make%20a%20good%20bad%20usb.md)
-* [RBCD the hard-ish way](06%20-%20Random%20Shit/RBCD%20-%20Without%20PowerView.md)
-* [Wifi Research](06%20-%20Random%20Shit/Learning%20Wifi%20Attacks.md)
-* [Wifi Hacking Part 1](06%20-%20Random%20Shit/Adventures%20with%20a%20RPI%20Part%201.md)
+* [Bad USB (with a bit of AV evasion)](A%20quest%20to%20make%20a%20good%20bad%20usb.md)
+* [RBCD the hard-ish way](RBCD%20-%20Without%20PowerView.md)
+* [Wifi Research](Learning%20Wifi%20Attacks.md)
+* [Wifi Hacking Part 1](RPi%20wifi%20framework.md)
 
 ## A mock pentest report 
 I did this for a HTB machine (Still a work in progress.)
@@ -28,19 +28,6 @@ A collection of tools that I'm developing mainly focusing on AV evasion and Bad 
 * [Wreath AD lab](03%20-%20Try%20Hack%20Me/AD%20LABS%20With%20Pentest%20Reports/Wreath/Notes.md) (work in progress)
 
 (need to also index ROP Emporium, pico gym, AoC2022)
-
-
-
-# Things I want to learn / improve
-
-## Learn a second programming language
-I know python really well, but I would also like to learn either Java or Go.
-
-## More AD hacking
-I LOVE doing AD hacking and have done nearly finished all the ad labs I can find online that are next to free. I still have to do GOAD and keep up to date with new exploits.
-
-## Web Apps
-I'm pretty good at pentesting a web app but there are a few small things that I haven't got around to learning, for example advance XXE, clickjacking and CSRF attacks.
 
 
 

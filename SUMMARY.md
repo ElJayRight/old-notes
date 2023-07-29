@@ -1,11 +1,11 @@
 # Summary
 
-* Projects
-	* [Bad USB (with a bit of AV evasion)](06%20-%20Random%20Shit/A%20quest%20to%20make%20a%20good%20bad%20usb.md)
-	* [RBCD the hard-ish way](06%20-%20Random%20Shit/RBCD%20-%20Without%20PowerView.md)
-	* [Wifi Research](06%20-%20Random%20Shit/Learning%20Wifi%20Attacks.md)
-	* [Wifi Hacking Part 1](06%20-%20Random%20Shit/Adventures%20with%20a%20RPi%20part%201.md)
-   	* [Java RCE the proper way](06%20-%20Random%20Shit/Javaisbad.md)
+* [Projects](Projects/README.md)
+	* [Bad USB (with a bit of AV evasion)](Projects/A%20quest%20to%20make%20a%20good%20bad%20usb.md)
+	* [RBCD the hard-ish way](Projects/RBCD%20-%20Without%20PowerView.md)
+	* [Wifi Research](Projects/Learning%20Wifi%20Attacks.md)
+	* [Wifi Hacking Part 1](RPi%20wifi%20framework.md)
+	* [Java RCE the proper way](Projects/Javaisbad.md)
 * [Offensive Security Tooling](Offsec%20Dev/README.md)
 	* [Bad USB Part 1](Offsec%20Dev/Bad%20USB%20part%201.md)
 	* [Into to Malware Development](Offsec%20Dev/Intro%20to%20MalDev.md)
@@ -15,8 +15,7 @@
 	* [Nim Shellcode runner / stager](Offsec%20Dev/Nim%20101.md)
 * HTB Reports
 	* [Cascade](02%20-%20Hack%20The%20Box/Cascade/Cascade%20Report.md)
-* Hack the box
-	* [Readme](02%20-%20Hack%20The%20Box/Readme.md)
+* [Hack the box](02%20-%20Hack%20The%20Box/Readme.md)
 	* [Active](02%20-%20Hack%20The%20Box/Active/Active.md)
 	* [Ambassador](02%20-%20Hack%20The%20Box/Ambassador/Ambassador.md)
 	* [Anubis](02%20-%20Hack%20The%20Box/Anubis/Anubis.md)
@@ -51,11 +50,6 @@
 			* [Sequel](02%20-%20Hack%20The%20Box/Starting%20Point/Tier%201/Sequel.md)
 	* [UpDown](02%20-%20Hack%20The%20Box/UpDown/UpDown.md)
 	* [Vessel](02%20-%20Hack%20The%20Box/Vessel/Vessel.md)
-* ROP Emporium \[Archived\]
-	* [ret2win](05%20-%20ROP%20Emporium%20old/01%20-%20ret2win.md)
-	* [split](05%20-%20ROP%20Emporium/02%20-%20split.md)
-	* [callme](05%20-%20ROP%20Emporium%20old/03%20-%20callme.md)
-	* [write](05%20-%20ROP%20Emporium%20old/04%20-%20write.md)
 * CTFS
 	* HTB Cyber Apocalypse 2023
 		* [Readme](CTFs/HTBCTF23/Readme.md)
@@ -104,38 +98,5 @@
 		* [ReadMyCert](CTFs/PicoCTF23/Crypto/ReadMyCert/ReadMyCert.md)
 * TryHackMe
 	* [Throwback Network](03%20-%20Try%20Hack%20Me/Throwback/Notes.md)
-	* [Mr Robot](03%20-%20Try%20Hack%20Me/Mr%20Robot%20CTF/Mr%20Robot.md)
 	* [Holo AD lab](03%20-%20Try%20Hack%20Me/AD%20LABS%20With%20Pentest%20Reports/Holo/Holo%20Notes%20Live.md)
 	* [Wreath AD lab](03%20-%20Try%20Hack%20Me/AD%20LABS%20With%20Pentest%20Reports/Wreath/Notes.md)
-	* [Attacktive Directory](03%20-%20Try%20Hack%20Me/Attacktive%20Directory/Attacktive%20Directory.md)
-	* [RazorBlack](03%20-%20Try%20Hack%20Me/RazorBlack/RazorBlack.md)
-* Pico Gym
-	* Web
-		* [Get aHEAD](01%20-%20PicoGym/01%20-%20Web%20Challenges/GET%20aHEAD.md)
-		* [Inspec3t0r](01%20-%20PicoGym/01%20-%20Web%20Challenges/Insp3ct0r.md)
-		* [where are the robots](01%20-%20PicoGym/01%20-%20Web%20Challenges/where%20are%20the%20robots.md)
-	* Binary Exploitation
-		* [basic-file-exploit](01%20-%20PicoGym/02%20-%20Binary%20Exploitation/basic-file-exploit.md)
-		* [buffer overflow 0](01%20-%20PicoGym/02%20-%20Binary%20Exploitation/buffer%20overflow%200.md)
-		* [buffer overflow 1](01%20-%20PicoGym/02%20-%20Binary%20Exploitation/buffer%20overflow%201.md)
-		* [buffer overflow 2](01%20-%20PicoGym/02%20-%20Binary%20Exploitation/buffer%20overflow%202.md)
-		* [buffer overflow 3](01%20-%20PicoGym/02%20-%20Binary%20Exploitation/buffer%20overflow%203.md)
-		* [x-sixty-what](01%20-%20PicoGym/02%20-%20Binary%20Exploitation/x-sixty-what.md)
-	* General Skills
-		* [strings it](01%20-%20PicoGym/03%20-%20General%20Skills/strings%20it.md)
-		* [Codebook](01%20-%20PicoGym/03%20-%20General%20Skills/Codebook.md)
-	* Forensics
-		* [Information](01%20-%20PicoGym/04%20-%20Forensics/Information.md)
-* Advent of Code 2022
-	* [Challenge 1](adventofcode2022/chall1.md)
-	* [Challenge 2](adventofcode2022/chall2.md)
-	* [Challenge 3](adventofcode2022/chall3.md)
-	* [Challenge 4](adventofcode2022/chall4.md)
-	* [Challenge 5](adventofcode2022/chall5.md)
-	* [Challenge 6](adventofcode2022/chall6.md)
-	* [Challenge 7](adventofcode2022/chall7.md)
-	* [Challenge 8](adventofcode2022/chall8.md)
-	* [Challenge 9](adventofcode2022/chall9.md)
-	* [Challenge 10](adventofcode2022/chall10.md)
-	* [Challenge 11](adventofcode2022/chall11.md)
-	* [Challenge 12](adventofcode2022/chall12.md)
