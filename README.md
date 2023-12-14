@@ -1,6 +1,6 @@
 # README
 Hi, you made it!
-This is all legacy stuff so instead go here: https://blog.eljayright.dev its like this but better :)
+This is all legacy stuff so instead go here: [https://blog.eljayright.dev](https://blog.eljayright.dev) its like this but better :)
 All the good stuff will be ported over.
 
 # What's on this site?
