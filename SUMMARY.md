@@ -96,7 +96,7 @@
 		* [rotation](CTFs/PicoCTF23/Crypto/rotation/rotation.md)
 		* [HideToSee](CTFs/PicoCTF23/Crypto/HideToSee/HideToSee.md)
 		* [ReadMyCert](CTFs/PicoCTF23/Crypto/ReadMyCert/ReadMyCert.md)
-* TryHackMe
+* TryHackMe AD Labs
 	* [Throwback Network](03%20-%20Try%20Hack%20Me/Throwback/Notes.md)
 	* [Holo AD lab](03%20-%20Try%20Hack%20Me/AD%20LABS%20With%20Pentest%20Reports/Holo/Holo%20Notes%20Live.md)
 	* [Wreath AD lab](03%20-%20Try%20Hack%20Me/AD%20LABS%20With%20Pentest%20Reports/Wreath/Notes.md)

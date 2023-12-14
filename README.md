@@ -1,7 +1,7 @@
 # README
-This is a collection of everything I have done relating to Cyber Security and Programming. Currently I'm doing the OSCP!! So going to be doing a bunch of OSCP like boxes and content.
-
-
+Hi, you made it!
+This is all legacy stuff so instead go here: https://blog.eljayright.dev its like this but better :)
+All the good stuff will be ported over.
 
 # What's on this site?
 
